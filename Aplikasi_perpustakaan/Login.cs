@@ -57,16 +57,8 @@ namespace Aplikasi_perpustakaan
 
                     MessageBox.Show($"Selamat Datang, {namaUser}! Anda login sebagai {roleUser}.", "Login Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    if (roleUser == "admin")
-                    {
-                        Dashboard dash = new Dashboard();
-                        dash.Show();
-                    }
-                    else if (roleUser == "petugas")
-                    {
-                        Dashboard dash = new Dashboard();
-                        dash.Show();
-                    }
+                    Dashboard dash = new Dashboard(namaUser, roleUser);
+                    dash.Show();
 
                     this.Hide();
                 }
