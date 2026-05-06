@@ -42,6 +42,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -52,10 +56,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             dataGridUser = new Guna.UI2.WinForms.Guna2DataGridView();
             btnSearch = new Guna.UI2.WinForms.Guna2Button();
@@ -67,6 +67,8 @@
             panel1 = new Panel();
             label1 = new Label();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            btnCancel = new Guna.UI2.WinForms.Guna2Button();
+            btnUpdate = new Guna.UI2.WinForms.Guna2Button();
             btnClear = new Guna.UI2.WinForms.Guna2Button();
             btnSimpan = new Guna.UI2.WinForms.Guna2Button();
             radioPetugas = new Guna.UI2.WinForms.Guna2RadioButton();
@@ -81,8 +83,6 @@
             txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             panel2 = new Panel();
             lblTitle = new Label();
-            btnUpdate = new Guna.UI2.WinForms.Guna2Button();
-            btnCancel = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridUser).BeginInit();
             panel3.SuspendLayout();
@@ -307,6 +307,46 @@
             guna2Panel1.Size = new Size(362, 569);
             guna2Panel1.TabIndex = 5;
             guna2Panel1.Paint += guna2Panel1_Paint;
+            // 
+            // btnCancel
+            // 
+            btnCancel.BorderRadius = 15;
+            btnCancel.CustomizableEdges = customizableEdges9;
+            btnCancel.DisabledState.BorderColor = Color.DarkGray;
+            btnCancel.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCancel.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCancel.FillColor = Color.Black;
+            btnCancel.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCancel.ForeColor = Color.White;
+            btnCancel.Image = (Image)resources.GetObject("btnCancel.Image");
+            btnCancel.Location = new Point(186, 492);
+            btnCancel.Name = "btnCancel";
+            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnCancel.Size = new Size(151, 48);
+            btnCancel.TabIndex = 22;
+            btnCancel.Text = "Cancel";
+            btnCancel.Click += btnCancel_Click;
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.BorderRadius = 15;
+            btnUpdate.CustomizableEdges = customizableEdges11;
+            btnUpdate.DisabledState.BorderColor = Color.DarkGray;
+            btnUpdate.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnUpdate.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnUpdate.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnUpdate.FillColor = Color.Black;
+            btnUpdate.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnUpdate.ForeColor = Color.White;
+            btnUpdate.Image = (Image)resources.GetObject("btnUpdate.Image");
+            btnUpdate.Location = new Point(22, 492);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnUpdate.Size = new Size(151, 48);
+            btnUpdate.TabIndex = 21;
+            btnUpdate.Text = "Simpan";
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnClear
             // 
@@ -546,46 +586,6 @@
             lblTitle.Size = new Size(166, 24);
             lblTitle.TabIndex = 2;
             lblTitle.Text = "Form Input User";
-            // 
-            // btnUpdate
-            // 
-            btnUpdate.BorderRadius = 15;
-            btnUpdate.CustomizableEdges = customizableEdges11;
-            btnUpdate.DisabledState.BorderColor = Color.DarkGray;
-            btnUpdate.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnUpdate.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnUpdate.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnUpdate.FillColor = Color.Black;
-            btnUpdate.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnUpdate.ForeColor = Color.White;
-            btnUpdate.Image = (Image)resources.GetObject("btnUpdate.Image");
-            btnUpdate.Location = new Point(22, 492);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnUpdate.Size = new Size(151, 48);
-            btnUpdate.TabIndex = 21;
-            btnUpdate.Text = "Simpan";
-            btnUpdate.Click += btnUpdate_Click;
-            // 
-            // btnCancel
-            // 
-            btnCancel.BorderRadius = 15;
-            btnCancel.CustomizableEdges = customizableEdges9;
-            btnCancel.DisabledState.BorderColor = Color.DarkGray;
-            btnCancel.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnCancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnCancel.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnCancel.FillColor = Color.Black;
-            btnCancel.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancel.ForeColor = Color.White;
-            btnCancel.Image = (Image)resources.GetObject("btnCancel.Image");
-            btnCancel.Location = new Point(186, 492);
-            btnCancel.Name = "btnCancel";
-            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnCancel.Size = new Size(151, 48);
-            btnCancel.TabIndex = 22;
-            btnCancel.Text = "Cancel";
-            btnCancel.Click += btnCancel_Click;
             // 
             // Member
             // 

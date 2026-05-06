@@ -16,5 +16,22 @@ namespace Aplikasi_perpustakaan
         {
             InitializeComponent();
         }
+
+        private void Books_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+            FormBooks formTambah = new FormBooks();
+            formTambah.ShowDialog();
+        }
     }
 }

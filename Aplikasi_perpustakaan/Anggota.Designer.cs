@@ -33,11 +33,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Anggota));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Anggota));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -63,12 +63,12 @@
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             DatePickerTanggalDaftar = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            btnCancel = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtNoHp = new Guna.UI2.WinForms.Guna2TextBox();
             txtAlamat = new RichTextBox();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btnAuto = new Guna.UI2.WinForms.Guna2Button();
-            btnCancel = new Guna.UI2.WinForms.Guna2Button();
             btnUpdate = new Guna.UI2.WinForms.Guna2Button();
             btnClear = new Guna.UI2.WinForms.Guna2Button();
             btnSimpan = new Guna.UI2.WinForms.Guna2Button();
@@ -107,12 +107,12 @@
             guna2Panel1.BorderThickness = 1;
             guna2Panel1.Controls.Add(DatePickerTanggalDaftar);
             guna2Panel1.Controls.Add(guna2HtmlLabel6);
+            guna2Panel1.Controls.Add(btnCancel);
             guna2Panel1.Controls.Add(guna2HtmlLabel4);
             guna2Panel1.Controls.Add(txtNoHp);
             guna2Panel1.Controls.Add(txtAlamat);
             guna2Panel1.Controls.Add(guna2HtmlLabel3);
             guna2Panel1.Controls.Add(btnAuto);
-            guna2Panel1.Controls.Add(btnCancel);
             guna2Panel1.Controls.Add(btnUpdate);
             guna2Panel1.Controls.Add(btnClear);
             guna2Panel1.Controls.Add(btnSimpan);
@@ -161,6 +161,25 @@
             guna2HtmlLabel6.TabIndex = 29;
             guna2HtmlLabel6.Text = "Tanggal Daftar";
             // 
+            // btnCancel
+            // 
+            btnCancel.BorderRadius = 15;
+            btnCancel.CustomizableEdges = customizableEdges3;
+            btnCancel.DisabledState.BorderColor = Color.DarkGray;
+            btnCancel.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCancel.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCancel.FillColor = Color.Black;
+            btnCancel.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCancel.ForeColor = Color.White;
+            btnCancel.Image = (Image)resources.GetObject("btnCancel.Image");
+            btnCancel.Location = new Point(187, 658);
+            btnCancel.Name = "btnCancel";
+            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnCancel.Size = new Size(151, 48);
+            btnCancel.TabIndex = 22;
+            btnCancel.Text = "Cancel";
+            // 
             // guna2HtmlLabel4
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
@@ -177,7 +196,7 @@
             txtNoHp.BorderColor = Color.Silver;
             txtNoHp.BorderRadius = 12;
             txtNoHp.BorderThickness = 2;
-            txtNoHp.CustomizableEdges = customizableEdges3;
+            txtNoHp.CustomizableEdges = customizableEdges5;
             txtNoHp.DefaultText = "";
             txtNoHp.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNoHp.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -192,9 +211,10 @@
             txtNoHp.Name = "txtNoHp";
             txtNoHp.PlaceholderText = "Enter your username";
             txtNoHp.SelectedText = "";
-            txtNoHp.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            txtNoHp.ShadowDecoration.CustomizableEdges = customizableEdges6;
             txtNoHp.Size = new Size(322, 47);
             txtNoHp.TabIndex = 26;
+            txtNoHp.TextChanged += txtNoHp_TextChanged;
             // 
             // txtAlamat
             // 
@@ -205,7 +225,6 @@
             txtAlamat.Size = new Size(322, 83);
             txtAlamat.TabIndex = 25;
             txtAlamat.Text = "";
-            txtAlamat.TextChanged += txtAlamat_TextChanged;
             // 
             // guna2HtmlLabel3
             // 
@@ -221,7 +240,7 @@
             // btnAuto
             // 
             btnAuto.BorderRadius = 15;
-            btnAuto.CustomizableEdges = customizableEdges5;
+            btnAuto.CustomizableEdges = customizableEdges7;
             btnAuto.DisabledState.BorderColor = Color.DarkGray;
             btnAuto.DisabledState.CustomBorderColor = Color.DarkGray;
             btnAuto.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -231,30 +250,11 @@
             btnAuto.ForeColor = Color.White;
             btnAuto.Location = new Point(269, 125);
             btnAuto.Name = "btnAuto";
-            btnAuto.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnAuto.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnAuto.Size = new Size(76, 48);
             btnAuto.TabIndex = 8;
             btnAuto.Text = "Auto";
             btnAuto.Click += btnAuto_Click;
-            // 
-            // btnCancel
-            // 
-            btnCancel.BorderRadius = 15;
-            btnCancel.CustomizableEdges = customizableEdges7;
-            btnCancel.DisabledState.BorderColor = Color.DarkGray;
-            btnCancel.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnCancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnCancel.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnCancel.FillColor = Color.Black;
-            btnCancel.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancel.ForeColor = Color.White;
-            btnCancel.Image = (Image)resources.GetObject("btnCancel.Image");
-            btnCancel.Location = new Point(187, 658);
-            btnCancel.Name = "btnCancel";
-            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnCancel.Size = new Size(151, 48);
-            btnCancel.TabIndex = 22;
-            btnCancel.Text = "Cancel";
             // 
             // btnUpdate
             // 
@@ -293,6 +293,7 @@
             btnClear.Size = new Size(151, 48);
             btnClear.TabIndex = 20;
             btnClear.Text = "Clear";
+            btnClear.Click += btnClear_Click;
             // 
             // btnSimpan
             // 
@@ -312,6 +313,7 @@
             btnSimpan.Size = new Size(151, 48);
             btnSimpan.TabIndex = 7;
             btnSimpan.Text = "Simpan";
+            btnSimpan.Click += btnSimpan_Click;
             // 
             // radioNonAktif
             // 
@@ -394,7 +396,6 @@
             txtCode.ShadowDecoration.CustomizableEdges = customizableEdges16;
             txtCode.Size = new Size(246, 47);
             txtCode.TabIndex = 15;
-            txtCode.TextChanged += txtCode_TextChanged;
             // 
             // guna2HtmlLabel5
             // 
@@ -468,7 +469,7 @@
             guna2Panel2.Location = new Point(363, 12);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2Panel2.Size = new Size(777, 708);
+            guna2Panel2.Size = new Size(777, 723);
             guna2Panel2.TabIndex = 6;
             // 
             // dataGridAnggota
@@ -498,7 +499,7 @@
             dataGridAnggota.Name = "dataGridAnggota";
             dataGridAnggota.RowHeadersVisible = false;
             dataGridAnggota.RowHeadersWidth = 51;
-            dataGridAnggota.Size = new Size(742, 465);
+            dataGridAnggota.Size = new Size(742, 491);
             dataGridAnggota.TabIndex = 7;
             dataGridAnggota.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dataGridAnggota.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -540,6 +541,7 @@
             btnSearch.Size = new Size(151, 48);
             btnSearch.TabIndex = 6;
             btnSearch.Text = "Cari";
+            btnSearch.Click += btnSearch_Click;
             // 
             // label3
             // 
@@ -583,7 +585,7 @@
             panel3.BackColor = Color.FromArgb(33, 37, 41);
             panel3.Controls.Add(btnRefresh);
             panel3.Controls.Add(lblTotalAnggota);
-            panel3.Location = new Point(0, 638);
+            panel3.Location = new Point(0, 653);
             panel3.Name = "panel3";
             panel3.Size = new Size(777, 70);
             panel3.TabIndex = 4;
@@ -605,6 +607,7 @@
             btnRefresh.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnRefresh.Size = new Size(56, 45);
             btnRefresh.TabIndex = 21;
+            btnRefresh.Click += btnRefresh_Click;
             // 
             // lblTotalAnggota
             // 
@@ -617,6 +620,7 @@
             lblTotalAnggota.Size = new Size(238, 24);
             lblTotalAnggota.TabIndex = 3;
             lblTotalAnggota.Text = "Total Anggota: 3 Orang";
+            lblTotalAnggota.Click += lblTotalAnggota_Click;
             // 
             // panel1
             // 
@@ -648,6 +652,7 @@
             Controls.Add(guna2Panel2);
             Name = "Anggota";
             Text = "Anggota";
+            Load += Anggota_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -661,6 +666,8 @@
             panel1.PerformLayout();
             ResumeLayout(false);
         }
+
+
 
         #endregion
 
