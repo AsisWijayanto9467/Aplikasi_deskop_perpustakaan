@@ -152,6 +152,7 @@
             txtUsername.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtUsername.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtUsername.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtUsername.ForeColor = Color.Black;
             txtUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtUsername.Location = new Point(705, 273);
             txtUsername.Margin = new Padding(3, 4, 3, 4);
@@ -209,6 +210,7 @@
             txtPassword.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtPassword.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtPassword.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtPassword.ForeColor = Color.Black;
             txtPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtPassword.IconRightOffset = new Point(8, 0);
             txtPassword.Location = new Point(705, 373);
