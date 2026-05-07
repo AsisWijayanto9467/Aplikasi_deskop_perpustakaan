@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Aplikasi_perpustakaan
 {
-    public partial class Report : Form
+    public partial class DetailTransaction : Form
     {
-        public Report()
+        public DetailTransaction()
         {
             InitializeComponent();
-        }
-
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Report_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -30,6 +30,11 @@
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Peminjaman));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
@@ -55,57 +60,52 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Peminjaman));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            panel5 = new Panel();
+            btnRefreshAll = new Guna.UI2.WinForms.Guna2Button();
+            btnSave = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             panel4 = new Panel();
             label3 = new Label();
-            lblTersedia = new Label();
+            lblEksemplarBuku = new Label();
             lblTotalBuku = new Label();
             label4 = new Label();
-            dataGridUser = new Guna.UI2.WinForms.Guna2DataGridView();
+            dataGridKeranjangBuku = new Guna.UI2.WinForms.Guna2DataGridView();
             panel3 = new Panel();
             label2 = new Label();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            txtPetugas = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            comboKategori = new Guna.UI2.WinForms.Guna2ComboBox();
+            comboAnggota = new Guna.UI2.WinForms.Guna2ComboBox();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            comboBuku = new Guna.UI2.WinForms.Guna2ComboBox();
+            txtJumlah = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            btnRefresh = new Guna.UI2.WinForms.Guna2Button();
+            btnTambahBuku = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
             lblTitle = new Label();
-            guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            datePickerTempo = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             radioDikembalikan = new Guna.UI2.WinForms.Guna2RadioButton();
             radioDipinjam = new Guna.UI2.WinForms.Guna2RadioButton();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            DatePickerTanggalDaftar = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btnAuto = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
+            txtKodePinjaman = new Guna.UI2.WinForms.Guna2TextBox();
             panel1 = new Panel();
             label1 = new Label();
-            panel5 = new Panel();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel2.SuspendLayout();
+            panel5.SuspendLayout();
             guna2Panel3.SuspendLayout();
             panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridUser).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridKeranjangBuku).BeginInit();
             panel3.SuspendLayout();
             guna2Panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
-            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel2
@@ -116,21 +116,21 @@
             guna2Panel2.BorderThickness = 1;
             guna2Panel2.Controls.Add(panel5);
             guna2Panel2.Controls.Add(guna2Panel3);
-            guna2Panel2.Controls.Add(guna2TextBox2);
+            guna2Panel2.Controls.Add(txtPetugas);
             guna2Panel2.Controls.Add(guna2HtmlLabel7);
             guna2Panel2.Controls.Add(guna2HtmlLabel6);
-            guna2Panel2.Controls.Add(comboKategori);
+            guna2Panel2.Controls.Add(comboAnggota);
             guna2Panel2.Controls.Add(guna2Panel1);
-            guna2Panel2.Controls.Add(guna2DateTimePicker2);
+            guna2Panel2.Controls.Add(datePickerTempo);
             guna2Panel2.Controls.Add(guna2HtmlLabel3);
             guna2Panel2.Controls.Add(radioDikembalikan);
             guna2Panel2.Controls.Add(radioDipinjam);
             guna2Panel2.Controls.Add(guna2HtmlLabel1);
-            guna2Panel2.Controls.Add(guna2DateTimePicker1);
+            guna2Panel2.Controls.Add(DatePickerTanggalDaftar);
             guna2Panel2.Controls.Add(guna2HtmlLabel2);
             guna2Panel2.Controls.Add(btnAuto);
             guna2Panel2.Controls.Add(guna2HtmlLabel5);
-            guna2Panel2.Controls.Add(txtUsername);
+            guna2Panel2.Controls.Add(txtKodePinjaman);
             guna2Panel2.Controls.Add(panel1);
             guna2Panel2.CustomizableEdges = customizableEdges27;
             guna2Panel2.Location = new Point(15, 12);
@@ -140,6 +140,56 @@
             guna2Panel2.TabIndex = 6;
             guna2Panel2.Paint += guna2Panel2_Paint_1;
             // 
+            // panel5
+            // 
+            panel5.BackColor = Color.FromArgb(33, 37, 41);
+            panel5.Controls.Add(btnRefreshAll);
+            panel5.Controls.Add(btnSave);
+            panel5.Location = new Point(0, 911);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(1108, 70);
+            panel5.TabIndex = 4;
+            // 
+            // btnRefreshAll
+            // 
+            btnRefreshAll.BorderRadius = 15;
+            btnRefreshAll.CustomizableEdges = customizableEdges1;
+            btnRefreshAll.DisabledState.BorderColor = Color.DarkGray;
+            btnRefreshAll.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnRefreshAll.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnRefreshAll.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnRefreshAll.FillColor = Color.Black;
+            btnRefreshAll.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRefreshAll.ForeColor = Color.White;
+            btnRefreshAll.Image = (Image)resources.GetObject("btnRefreshAll.Image");
+            btnRefreshAll.Location = new Point(338, 15);
+            btnRefreshAll.Name = "btnRefreshAll";
+            btnRefreshAll.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnRefreshAll.Size = new Size(159, 43);
+            btnRefreshAll.TabIndex = 24;
+            btnRefreshAll.Text = "Refersh All";
+            btnRefreshAll.Click += btnRefreshAll_Click;
+            // 
+            // btnSave
+            // 
+            btnSave.BorderRadius = 15;
+            btnSave.CustomizableEdges = customizableEdges3;
+            btnSave.DisabledState.BorderColor = Color.DarkGray;
+            btnSave.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSave.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSave.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSave.FillColor = Color.Black;
+            btnSave.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSave.ForeColor = Color.White;
+            btnSave.Image = (Image)resources.GetObject("btnSave.Image");
+            btnSave.Location = new Point(503, 15);
+            btnSave.Name = "btnSave";
+            btnSave.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnSave.Size = new Size(370, 43);
+            btnSave.TabIndex = 23;
+            btnSave.Text = "Simpan Penyimpanan";
+            btnSave.Click += btnSave_Click;
+            // 
             // guna2Panel3
             // 
             guna2Panel3.BackColor = Color.FromArgb(240, 242, 245);
@@ -147,10 +197,10 @@
             guna2Panel3.BorderRadius = 10;
             guna2Panel3.BorderThickness = 1;
             guna2Panel3.Controls.Add(panel4);
-            guna2Panel3.Controls.Add(dataGridUser);
+            guna2Panel3.Controls.Add(dataGridKeranjangBuku);
             guna2Panel3.Controls.Add(panel3);
             guna2Panel3.CustomizableEdges = customizableEdges5;
-            guna2Panel3.Location = new Point(17, 581);
+            guna2Panel3.Location = new Point(17, 549);
             guna2Panel3.Name = "guna2Panel3";
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Panel3.Size = new Size(1074, 311);
@@ -160,7 +210,7 @@
             // 
             panel4.BackColor = Color.FromArgb(33, 37, 41);
             panel4.Controls.Add(label3);
-            panel4.Controls.Add(lblTersedia);
+            panel4.Controls.Add(lblEksemplarBuku);
             panel4.Controls.Add(lblTotalBuku);
             panel4.Controls.Add(label4);
             panel4.Location = new Point(0, 261);
@@ -180,17 +230,18 @@
             label3.TabIndex = 27;
             label3.Text = "|";
             // 
-            // lblTersedia
+            // lblEksemplarBuku
             // 
-            lblTersedia.AutoSize = true;
-            lblTersedia.BackColor = Color.Transparent;
-            lblTersedia.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTersedia.ForeColor = Color.White;
-            lblTersedia.Location = new Point(244, 15);
-            lblTersedia.Name = "lblTersedia";
-            lblTersedia.Size = new Size(195, 24);
-            lblTersedia.TabIndex = 26;
-            lblTersedia.Text = "Total Eksemplar : 6";
+            lblEksemplarBuku.AutoSize = true;
+            lblEksemplarBuku.BackColor = Color.Transparent;
+            lblEksemplarBuku.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEksemplarBuku.ForeColor = Color.White;
+            lblEksemplarBuku.Location = new Point(244, 15);
+            lblEksemplarBuku.Name = "lblEksemplarBuku";
+            lblEksemplarBuku.Size = new Size(195, 24);
+            lblEksemplarBuku.TabIndex = 26;
+            lblEksemplarBuku.Text = "Total Eksemplar : 6";
+            lblEksemplarBuku.Click += lblEksemplarBuku_Click;
             // 
             // lblTotalBuku
             // 
@@ -203,6 +254,7 @@
             lblTotalBuku.Size = new Size(197, 24);
             lblTotalBuku.TabIndex = 24;
             lblTotalBuku.Text = "Total Jenis Buku : 3";
+            lblTotalBuku.Click += lblTotalBuku_Click;
             // 
             // label4
             // 
@@ -216,10 +268,10 @@
             label4.TabIndex = 25;
             label4.Text = "|";
             // 
-            // dataGridUser
+            // dataGridKeranjangBuku
             // 
             dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridUser.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridKeranjangBuku.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
@@ -227,9 +279,9 @@
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridUser.ColumnHeadersHeight = 4;
-            dataGridUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridKeranjangBuku.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridKeranjangBuku.ColumnHeadersHeight = 4;
+            dataGridKeranjangBuku.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.White;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
@@ -237,35 +289,36 @@
             dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dataGridUser.DefaultCellStyle = dataGridViewCellStyle3;
-            dataGridUser.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridUser.Location = new Point(23, 88);
-            dataGridUser.Name = "dataGridUser";
-            dataGridUser.RowHeadersVisible = false;
-            dataGridUser.RowHeadersWidth = 51;
-            dataGridUser.Size = new Size(1027, 154);
-            dataGridUser.TabIndex = 8;
-            dataGridUser.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dataGridUser.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dataGridUser.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dataGridUser.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dataGridUser.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dataGridUser.ThemeStyle.BackColor = Color.White;
-            dataGridUser.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridUser.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridUser.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridUser.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            dataGridUser.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dataGridUser.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridUser.ThemeStyle.HeaderStyle.Height = 4;
-            dataGridUser.ThemeStyle.ReadOnly = false;
-            dataGridUser.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dataGridUser.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridUser.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dataGridUser.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridUser.ThemeStyle.RowsStyle.Height = 29;
-            dataGridUser.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridUser.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridKeranjangBuku.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridKeranjangBuku.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridKeranjangBuku.Location = new Point(23, 88);
+            dataGridKeranjangBuku.Name = "dataGridKeranjangBuku";
+            dataGridKeranjangBuku.RowHeadersVisible = false;
+            dataGridKeranjangBuku.RowHeadersWidth = 51;
+            dataGridKeranjangBuku.Size = new Size(1027, 154);
+            dataGridKeranjangBuku.TabIndex = 8;
+            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridKeranjangBuku.ThemeStyle.BackColor = Color.White;
+            dataGridKeranjangBuku.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridKeranjangBuku.ThemeStyle.ReadOnly = false;
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.Height = 29;
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridKeranjangBuku.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridKeranjangBuku.CellContentClick += dataGridKeranjangBuku_CellContentClick;
             // 
             // panel3
             // 
@@ -288,29 +341,30 @@
             label2.TabIndex = 2;
             label2.Text = "Keranjang Buku";
             // 
-            // guna2TextBox2
+            // txtPetugas
             // 
-            guna2TextBox2.BorderColor = Color.Silver;
-            guna2TextBox2.BorderRadius = 12;
-            guna2TextBox2.BorderThickness = 2;
-            guna2TextBox2.CustomizableEdges = customizableEdges7;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox2.ForeColor = Color.Black;
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(755, 179);
-            guna2TextBox2.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PlaceholderText = "Enter your username";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2TextBox2.Size = new Size(336, 47);
-            guna2TextBox2.TabIndex = 60;
+            txtPetugas.BorderColor = Color.Silver;
+            txtPetugas.BorderRadius = 12;
+            txtPetugas.BorderThickness = 2;
+            txtPetugas.CustomizableEdges = customizableEdges7;
+            txtPetugas.DefaultText = "";
+            txtPetugas.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtPetugas.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtPetugas.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtPetugas.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtPetugas.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtPetugas.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtPetugas.ForeColor = Color.Black;
+            txtPetugas.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtPetugas.Location = new Point(755, 179);
+            txtPetugas.Margin = new Padding(3, 4, 3, 4);
+            txtPetugas.Name = "txtPetugas";
+            txtPetugas.PlaceholderText = "Enter your username";
+            txtPetugas.SelectedText = "";
+            txtPetugas.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            txtPetugas.Size = new Size(336, 47);
+            txtPetugas.TabIndex = 60;
+            txtPetugas.TextChanged += txtPetugas_TextChanged;
             // 
             // guna2HtmlLabel7
             // 
@@ -334,23 +388,24 @@
             guna2HtmlLabel6.TabIndex = 58;
             guna2HtmlLabel6.Text = "Anggota :";
             // 
-            // comboKategori
+            // comboAnggota
             // 
-            comboKategori.BackColor = Color.Transparent;
-            comboKategori.BorderRadius = 12;
-            comboKategori.CustomizableEdges = customizableEdges9;
-            comboKategori.DrawMode = DrawMode.OwnerDrawFixed;
-            comboKategori.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboKategori.FocusedColor = Color.FromArgb(94, 148, 255);
-            comboKategori.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            comboKategori.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboKategori.ForeColor = Color.Black;
-            comboKategori.ItemHeight = 30;
-            comboKategori.Location = new Point(757, 115);
-            comboKategori.Name = "comboKategori";
-            comboKategori.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            comboKategori.Size = new Size(334, 36);
-            comboKategori.TabIndex = 57;
+            comboAnggota.BackColor = Color.Transparent;
+            comboAnggota.BorderRadius = 12;
+            comboAnggota.CustomizableEdges = customizableEdges9;
+            comboAnggota.DrawMode = DrawMode.OwnerDrawFixed;
+            comboAnggota.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboAnggota.FocusedColor = Color.FromArgb(94, 148, 255);
+            comboAnggota.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            comboAnggota.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboAnggota.ForeColor = Color.Black;
+            comboAnggota.ItemHeight = 30;
+            comboAnggota.Location = new Point(757, 115);
+            comboAnggota.Name = "comboAnggota";
+            comboAnggota.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            comboAnggota.Size = new Size(334, 36);
+            comboAnggota.TabIndex = 57;
+            comboAnggota.SelectedIndexChanged += comboAnggota_SelectedIndexChanged;
             // 
             // guna2Panel1
             // 
@@ -358,68 +413,69 @@
             guna2Panel1.BorderColor = Color.Silver;
             guna2Panel1.BorderRadius = 10;
             guna2Panel1.BorderThickness = 1;
-            guna2Panel1.Controls.Add(guna2ComboBox1);
-            guna2Panel1.Controls.Add(guna2TextBox3);
+            guna2Panel1.Controls.Add(comboBuku);
+            guna2Panel1.Controls.Add(txtJumlah);
             guna2Panel1.Controls.Add(guna2HtmlLabel8);
             guna2Panel1.Controls.Add(guna2HtmlLabel4);
-            guna2Panel1.Controls.Add(btnRefresh);
+            guna2Panel1.Controls.Add(btnTambahBuku);
             guna2Panel1.Controls.Add(panel2);
             guna2Panel1.CustomizableEdges = customizableEdges17;
             guna2Panel1.Location = new Point(17, 373);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2Panel1.Size = new Size(1074, 186);
+            guna2Panel1.Size = new Size(1074, 149);
             guna2Panel1.TabIndex = 56;
             // 
-            // guna2ComboBox1
+            // comboBuku
             // 
-            guna2ComboBox1.BackColor = Color.Transparent;
-            guna2ComboBox1.BorderRadius = 12;
-            guna2ComboBox1.CustomizableEdges = customizableEdges11;
-            guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox1.FocusedColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox1.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2ComboBox1.ForeColor = Color.Black;
-            guna2ComboBox1.ItemHeight = 30;
-            guna2ComboBox1.Location = new Point(127, 91);
-            guna2ComboBox1.Name = "guna2ComboBox1";
-            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2ComboBox1.Size = new Size(334, 36);
-            guna2ComboBox1.TabIndex = 58;
+            comboBuku.BackColor = Color.Transparent;
+            comboBuku.BorderRadius = 12;
+            comboBuku.CustomizableEdges = customizableEdges11;
+            comboBuku.DrawMode = DrawMode.OwnerDrawFixed;
+            comboBuku.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBuku.FocusedColor = Color.FromArgb(94, 148, 255);
+            comboBuku.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            comboBuku.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBuku.ForeColor = Color.Black;
+            comboBuku.ItemHeight = 30;
+            comboBuku.Location = new Point(118, 91);
+            comboBuku.Name = "comboBuku";
+            comboBuku.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            comboBuku.Size = new Size(491, 36);
+            comboBuku.TabIndex = 58;
+            comboBuku.SelectedIndexChanged += comboBuku_SelectedIndexChanged;
             // 
-            // guna2TextBox3
+            // txtJumlah
             // 
-            guna2TextBox3.BorderColor = Color.Silver;
-            guna2TextBox3.BorderRadius = 12;
-            guna2TextBox3.BorderThickness = 2;
-            guna2TextBox3.CustomizableEdges = customizableEdges13;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox3.ForeColor = Color.Black;
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(566, 91);
-            guna2TextBox3.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2TextBox3.Size = new Size(147, 36);
-            guna2TextBox3.TabIndex = 28;
-            guna2TextBox3.TextChanged += guna2TextBox3_TextChanged;
+            txtJumlah.BorderColor = Color.Silver;
+            txtJumlah.BorderRadius = 12;
+            txtJumlah.BorderThickness = 2;
+            txtJumlah.CustomizableEdges = customizableEdges13;
+            txtJumlah.DefaultText = "";
+            txtJumlah.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtJumlah.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtJumlah.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtJumlah.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtJumlah.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtJumlah.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtJumlah.ForeColor = Color.Black;
+            txtJumlah.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtJumlah.Location = new Point(709, 91);
+            txtJumlah.Margin = new Padding(3, 4, 3, 4);
+            txtJumlah.Name = "txtJumlah";
+            txtJumlah.PlaceholderText = "";
+            txtJumlah.SelectedText = "";
+            txtJumlah.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            txtJumlah.Size = new Size(147, 36);
+            txtJumlah.TabIndex = 28;
+            txtJumlah.TextChanged += txtJumlah_TextChanged;
             // 
             // guna2HtmlLabel8
             // 
             guna2HtmlLabel8.BackColor = Color.Transparent;
             guna2HtmlLabel8.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel8.ForeColor = Color.Black;
-            guna2HtmlLabel8.Location = new Point(485, 91);
+            guna2HtmlLabel8.Location = new Point(628, 98);
             guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             guna2HtmlLabel8.Size = new Size(75, 22);
             guna2HtmlLabel8.TabIndex = 27;
@@ -431,32 +487,32 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel4.ForeColor = Color.Black;
-            guna2HtmlLabel4.Location = new Point(25, 91);
+            guna2HtmlLabel4.Location = new Point(16, 96);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             guna2HtmlLabel4.Size = new Size(96, 22);
             guna2HtmlLabel4.TabIndex = 26;
             guna2HtmlLabel4.Text = "Pilih Buku :";
             guna2HtmlLabel4.Click += guna2HtmlLabel4_Click;
             // 
-            // btnRefresh
+            // btnTambahBuku
             // 
-            btnRefresh.BorderRadius = 15;
-            btnRefresh.CustomizableEdges = customizableEdges15;
-            btnRefresh.DisabledState.BorderColor = Color.DarkGray;
-            btnRefresh.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnRefresh.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnRefresh.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnRefresh.FillColor = Color.Black;
-            btnRefresh.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRefresh.ForeColor = Color.White;
-            btnRefresh.Image = (Image)resources.GetObject("btnRefresh.Image");
-            btnRefresh.Location = new Point(25, 133);
-            btnRefresh.Name = "btnRefresh";
-            btnRefresh.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnRefresh.Size = new Size(173, 36);
-            btnRefresh.TabIndex = 22;
-            btnRefresh.Text = "Tambah";
-            btnRefresh.Click += btnRefresh_Click;
+            btnTambahBuku.BorderRadius = 15;
+            btnTambahBuku.CustomizableEdges = customizableEdges15;
+            btnTambahBuku.DisabledState.BorderColor = Color.DarkGray;
+            btnTambahBuku.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnTambahBuku.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnTambahBuku.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnTambahBuku.FillColor = Color.Black;
+            btnTambahBuku.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnTambahBuku.ForeColor = Color.White;
+            btnTambahBuku.Image = (Image)resources.GetObject("btnTambahBuku.Image");
+            btnTambahBuku.Location = new Point(889, 91);
+            btnTambahBuku.Name = "btnTambahBuku";
+            btnTambahBuku.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnTambahBuku.Size = new Size(173, 36);
+            btnTambahBuku.TabIndex = 22;
+            btnTambahBuku.Text = "Tambah";
+            btnTambahBuku.Click += btnTambahBuku_Click;
             // 
             // panel2
             // 
@@ -479,35 +535,36 @@
             lblTitle.TabIndex = 2;
             lblTitle.Text = "Tambah Buku";
             // 
-            // guna2DateTimePicker2
+            // datePickerTempo
             // 
-            guna2DateTimePicker2.BorderColor = Color.Silver;
-            guna2DateTimePicker2.BorderRadius = 12;
-            guna2DateTimePicker2.BorderThickness = 2;
-            guna2DateTimePicker2.Checked = true;
-            guna2DateTimePicker2.CustomizableEdges = customizableEdges19;
-            guna2DateTimePicker2.FillColor = Color.FromArgb(224, 224, 224);
-            guna2DateTimePicker2.Font = new Font("Segoe UI", 9F);
-            guna2DateTimePicker2.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker2.Location = new Point(172, 246);
-            guna2DateTimePicker2.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker2.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2DateTimePicker2.Size = new Size(463, 56);
-            guna2DateTimePicker2.TabIndex = 55;
-            guna2DateTimePicker2.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTempo.BorderColor = Color.Silver;
+            datePickerTempo.BorderRadius = 12;
+            datePickerTempo.BorderThickness = 2;
+            datePickerTempo.Checked = true;
+            datePickerTempo.CustomizableEdges = customizableEdges19;
+            datePickerTempo.FillColor = Color.FromArgb(224, 224, 224);
+            datePickerTempo.Font = new Font("Segoe UI", 9F);
+            datePickerTempo.Format = DateTimePickerFormat.Long;
+            datePickerTempo.Location = new Point(172, 246);
+            datePickerTempo.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            datePickerTempo.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            datePickerTempo.Name = "datePickerTempo";
+            datePickerTempo.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            datePickerTempo.Size = new Size(463, 56);
+            datePickerTempo.TabIndex = 55;
+            datePickerTempo.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTempo.ValueChanged += datePickerTempo_ValueChanged;
             // 
             // guna2HtmlLabel3
             // 
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.Black;
-            guna2HtmlLabel3.Location = new Point(28, 263);
+            guna2HtmlLabel3.Location = new Point(23, 262);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(138, 22);
+            guna2HtmlLabel3.Size = new Size(143, 22);
             guna2HtmlLabel3.TabIndex = 54;
-            guna2HtmlLabel3.Text = "Tanggal Daftar :";
+            guna2HtmlLabel3.Text = "Tanggal Tempo :";
             // 
             // radioDikembalikan
             // 
@@ -526,6 +583,7 @@
             radioDikembalikan.UncheckedState.BorderThickness = 2;
             radioDikembalikan.UncheckedState.FillColor = Color.Transparent;
             radioDikembalikan.UncheckedState.InnerColor = Color.Transparent;
+            radioDikembalikan.CheckedChanged += radioDikembalikan_CheckedChanged;
             // 
             // radioDipinjam
             // 
@@ -544,6 +602,7 @@
             radioDipinjam.UncheckedState.BorderThickness = 2;
             radioDipinjam.UncheckedState.FillColor = Color.Transparent;
             radioDipinjam.UncheckedState.InnerColor = Color.Transparent;
+            radioDipinjam.CheckedChanged += radioDipinjam_CheckedChanged;
             // 
             // guna2HtmlLabel1
             // 
@@ -557,24 +616,25 @@
             guna2HtmlLabel1.Text = "Status :";
             guna2HtmlLabel1.Click += guna2HtmlLabel1_Click;
             // 
-            // guna2DateTimePicker1
+            // DatePickerTanggalDaftar
             // 
-            guna2DateTimePicker1.BorderColor = Color.Silver;
-            guna2DateTimePicker1.BorderRadius = 12;
-            guna2DateTimePicker1.BorderThickness = 2;
-            guna2DateTimePicker1.Checked = true;
-            guna2DateTimePicker1.CustomizableEdges = customizableEdges21;
-            guna2DateTimePicker1.FillColor = Color.FromArgb(224, 224, 224);
-            guna2DateTimePicker1.Font = new Font("Segoe UI", 9F);
-            guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(172, 170);
-            guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2DateTimePicker1.Size = new Size(463, 56);
-            guna2DateTimePicker1.TabIndex = 50;
-            guna2DateTimePicker1.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            DatePickerTanggalDaftar.BorderColor = Color.Silver;
+            DatePickerTanggalDaftar.BorderRadius = 12;
+            DatePickerTanggalDaftar.BorderThickness = 2;
+            DatePickerTanggalDaftar.Checked = true;
+            DatePickerTanggalDaftar.CustomizableEdges = customizableEdges21;
+            DatePickerTanggalDaftar.FillColor = Color.FromArgb(224, 224, 224);
+            DatePickerTanggalDaftar.Font = new Font("Segoe UI", 9F);
+            DatePickerTanggalDaftar.Format = DateTimePickerFormat.Long;
+            DatePickerTanggalDaftar.Location = new Point(172, 170);
+            DatePickerTanggalDaftar.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            DatePickerTanggalDaftar.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            DatePickerTanggalDaftar.Name = "DatePickerTanggalDaftar";
+            DatePickerTanggalDaftar.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            DatePickerTanggalDaftar.Size = new Size(463, 56);
+            DatePickerTanggalDaftar.TabIndex = 50;
+            DatePickerTanggalDaftar.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            DatePickerTanggalDaftar.ValueChanged += DatePickerTanggalDaftar_ValueChanged;
             // 
             // guna2HtmlLabel2
             // 
@@ -617,29 +677,30 @@
             guna2HtmlLabel5.TabIndex = 24;
             guna2HtmlLabel5.Text = "Kode Pinjaman :";
             // 
-            // txtUsername
+            // txtKodePinjaman
             // 
-            txtUsername.BorderColor = Color.Silver;
-            txtUsername.BorderRadius = 12;
-            txtUsername.BorderThickness = 2;
-            txtUsername.CustomizableEdges = customizableEdges25;
-            txtUsername.DefaultText = "";
-            txtUsername.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            txtUsername.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            txtUsername.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            txtUsername.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            txtUsername.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtUsername.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtUsername.ForeColor = Color.Black;
-            txtUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtUsername.Location = new Point(172, 105);
-            txtUsername.Margin = new Padding(3, 4, 3, 4);
-            txtUsername.Name = "txtUsername";
-            txtUsername.PlaceholderText = "Enter your username";
-            txtUsername.SelectedText = "";
-            txtUsername.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            txtUsername.Size = new Size(384, 47);
-            txtUsername.TabIndex = 23;
+            txtKodePinjaman.BorderColor = Color.Silver;
+            txtKodePinjaman.BorderRadius = 12;
+            txtKodePinjaman.BorderThickness = 2;
+            txtKodePinjaman.CustomizableEdges = customizableEdges25;
+            txtKodePinjaman.DefaultText = "";
+            txtKodePinjaman.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtKodePinjaman.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtKodePinjaman.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtKodePinjaman.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtKodePinjaman.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtKodePinjaman.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtKodePinjaman.ForeColor = Color.Black;
+            txtKodePinjaman.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtKodePinjaman.Location = new Point(172, 105);
+            txtKodePinjaman.Margin = new Padding(3, 4, 3, 4);
+            txtKodePinjaman.Name = "txtKodePinjaman";
+            txtKodePinjaman.PlaceholderText = "Enter your Code";
+            txtKodePinjaman.SelectedText = "";
+            txtKodePinjaman.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            txtKodePinjaman.Size = new Size(384, 47);
+            txtKodePinjaman.TabIndex = 23;
+            txtKodePinjaman.TextChanged += txtKodePinjaman_TextChanged;
             // 
             // panel1
             // 
@@ -662,54 +723,6 @@
             label1.TabIndex = 3;
             label1.Text = "Data Peminjaman";
             // 
-            // panel5
-            // 
-            panel5.BackColor = Color.FromArgb(33, 37, 41);
-            panel5.Controls.Add(guna2Button2);
-            panel5.Controls.Add(guna2Button1);
-            panel5.Location = new Point(0, 911);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(1108, 70);
-            panel5.TabIndex = 4;
-            // 
-            // guna2Button2
-            // 
-            guna2Button2.BorderRadius = 15;
-            guna2Button2.CustomizableEdges = customizableEdges1;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.Black;
-            guna2Button2.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.White;
-            guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
-            guna2Button2.Location = new Point(680, 15);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button2.Size = new Size(159, 43);
-            guna2Button2.TabIndex = 24;
-            guna2Button2.Text = "Refersh All";
-            // 
-            // guna2Button1
-            // 
-            guna2Button1.BorderRadius = 15;
-            guna2Button1.CustomizableEdges = customizableEdges3;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Black;
-            guna2Button1.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.Location = new Point(845, 15);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button1.Size = new Size(243, 43);
-            guna2Button1.TabIndex = 23;
-            guna2Button1.Text = "Simpan Penyimpanan";
-            // 
             // Peminjaman
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -718,12 +731,14 @@
             Controls.Add(guna2Panel2);
             Name = "Peminjaman";
             Text = "Peminjaman";
+            Load += Peminjaman_Load;
             guna2Panel2.ResumeLayout(false);
             guna2Panel2.PerformLayout();
+            panel5.ResumeLayout(false);
             guna2Panel3.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridUser).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridKeranjangBuku).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             guna2Panel1.ResumeLayout(false);
@@ -732,7 +747,6 @@
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            panel5.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -742,38 +756,38 @@
         private Panel panel1;
         private Label label1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2TextBox txtUsername;
+        private Guna.UI2.WinForms.Guna2TextBox txtKodePinjaman;
         private Guna.UI2.WinForms.Guna2Button btnAuto;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker DatePickerTanggalDaftar;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2RadioButton radioDikembalikan;
         private Guna.UI2.WinForms.Guna2RadioButton radioDipinjam;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePickerTempo;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Panel panel2;
         private Label lblTitle;
-        private Guna.UI2.WinForms.Guna2Button btnRefresh;
+        private Guna.UI2.WinForms.Guna2Button btnTambahBuku;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox txtPetugas;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2ComboBox comboKategori;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2ComboBox comboAnggota;
+        private Guna.UI2.WinForms.Guna2TextBox txtJumlah;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox comboBuku;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Panel panel3;
         private Label label2;
-        private Guna.UI2.WinForms.Guna2DataGridView dataGridUser;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridKeranjangBuku;
         private Panel panel4;
         private Label label3;
-        private Label lblTersedia;
+        private Label lblEksemplarBuku;
         private Label lblTotalBuku;
         private Label label4;
         private Panel panel5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnSave;
+        private Guna.UI2.WinForms.Guna2Button btnRefreshAll;
     }
 }
