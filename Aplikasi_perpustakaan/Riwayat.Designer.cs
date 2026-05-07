@@ -1,6 +1,6 @@
 ﻿namespace Aplikasi_perpustakaan
 {
-    partial class Transaction
+    partial class Riwayat
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             SuspendLayout();
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(196, 148);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            // 
-            // Transaction
+            // Riwayat
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1135, 732);
-            Controls.Add(label1);
-            Name = "Transaction";
-            Text = "Transaction";
+            Name = "Riwayat";
+            Text = "Riwayat";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
     }
 }

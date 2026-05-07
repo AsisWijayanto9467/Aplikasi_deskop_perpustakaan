@@ -27,7 +27,7 @@ namespace Aplikasi_perpustakaan
         {
             AturHakAkses();
             TampilkanForm(new Home());
-            UpdateLabelInfo("Dashboard"); 
+            UpdateLabelInfo("Dashboard");
         }
 
         private void AturHakAkses()
@@ -44,19 +44,49 @@ namespace Aplikasi_perpustakaan
 
         private void TampilkanForm(Form formBaru)
         {
+            // HAPUS KONTEN LAMA
             if (mainPanel.Controls.Count > 0)
             {
                 mainPanel.Controls.Clear();
             }
 
+            // 🔥 SETTING FORM AGAR BISA MASUK KE PANEL
             formBaru.TopLevel = false;
-            formBaru.Dock = DockStyle.Fill;
+            formBaru.Dock = DockStyle.None;
             formBaru.FormBorderStyle = FormBorderStyle.None;
 
+            // 🔥 HITUNG TINGGI FORM SECARA OTOMATIS
+            int maxBottom = 0;
+            foreach (Control ctrl in formBaru.Controls)
+            {
+                int bottom = ctrl.Bottom + ctrl.Margin.Bottom + ctrl.Padding.Bottom;
+                if (bottom > maxBottom)
+                    maxBottom = bottom;
+            }
+
+            // Tambah padding 50px untuk keamanan
+            int formHeight = Math.Max(maxBottom + 50, formBaru.MinimumSize.Height);
+            int formWidth = mainPanel.Width - 30; // Kurangi sedikit untuk margin
+
+            formBaru.Size = new Size(formWidth, formHeight);
+
+            // 🔥 SETTING SCROLL PANEL
+            mainPanel.AutoScroll = true;
+            mainPanel.AutoScrollMinSize = new Size(0, 0);
+            mainPanel.VerticalScroll.Visible = false;
+
+            // 🔥 AKTIFKAN SCROLL JIKA FORM LEBIH TINGGI DARI PANEL
+            if (formHeight > mainPanel.Height)
+            {
+                mainPanel.AutoScrollMinSize = new Size(0, formHeight);
+                mainPanel.VerticalScroll.Visible = true;
+            }
+
             mainPanel.Controls.Add(formBaru);
+            formBaru.Location = new Point(10, 0); // Beri sedikit margin kiri
             formBaru.Show();
 
-            currentForm = formBaru; 
+            currentForm = formBaru;
         }
 
         private void UpdateLabelInfo(string halaman)
@@ -90,15 +120,28 @@ namespace Aplikasi_perpustakaan
             UpdateLabelInfo("Books / Buku");
         }
 
-        private void btnTransaction_Click(object sender, EventArgs e)
-        {
-            TampilkanForm(new Transaction());
-            UpdateLabelInfo("Transaksi Peminjaman");
-        }
 
         private void btnReport_Click(object sender, EventArgs e)
         {
             TampilkanForm(new Report());
+            UpdateLabelInfo("Laporan");
+        }
+
+        private void btnPeminjaman_Click(object sender, EventArgs e)
+        {
+            TampilkanForm(new Peminjaman());
+            UpdateLabelInfo("Laporan");
+        }
+
+        private void btnPengembalian_Click(object sender, EventArgs e)
+        {
+            TampilkanForm(new Pengembalian());
+            UpdateLabelInfo("Laporan");
+        }
+
+        private void btnDenda_Click(object sender, EventArgs e)
+        {
+            TampilkanForm(new Denda());
             UpdateLabelInfo("Laporan");
         }
 
@@ -120,5 +163,10 @@ namespace Aplikasi_perpustakaan
         private void lblTitle_Click(object sender, EventArgs e) { }
         private void label2_Click(object sender, EventArgs e) { }
         private void lblInfo_Click(object sender, EventArgs e) { }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

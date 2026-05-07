@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Aplikasi_perpustakaan
 {
-    public partial class Home : Form
+    public partial class Riwayat : Form
     {
-        public Home()
+        public Riwayat()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Aplikasi_perpustakaan
 {
-    public partial class Transaction : Form
+    public partial class Denda : Form
     {
-        public Transaction()
+        public Denda()
         {
             InitializeComponent();
         }
