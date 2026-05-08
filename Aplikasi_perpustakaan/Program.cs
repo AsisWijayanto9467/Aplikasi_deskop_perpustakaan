@@ -19,12 +19,7 @@ namespace Aplikasi_perpustakaan
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            UserId = 1;                    // id_user dari database
-            Username = "admin1";           // username
-            NamaLengkap = "Ahmad Soebardjo"; // nama lengkap
-            Role = "admin";                // role
-
-            Application.Run(new Dashboard(NamaLengkap, Role));
+            Application.Run(new Login());
         }
     }
 }

@@ -39,59 +39,61 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetailTransaction));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            lblTanggalTempo = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblTanggalPinjam = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblStatusPinjam = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblNamaAnggota = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblKodeAnggota = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblKodePeminjaman = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panel3 = new Panel();
             label2 = new Label();
-            lblConsequence = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblStatusDenda = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblDendaBukuHilang = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblTotalDenda = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblNamaPetugas = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblDendaTerlambat = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblTerlambat = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblTanggalPengembalian = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panel1 = new Panel();
             label1 = new Label();
             guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            dataGridBukuDipinjam = new Guna.UI2.WinForms.Guna2DataGridView();
             panel2 = new Panel();
             label3 = new Label();
             guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            dataGridKeranjangBuku = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            txtTotalDenda = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            dataGridRincianDenda = new Guna.UI2.WinForms.Guna2DataGridView();
             panel4 = new Panel();
             label4 = new Label();
             guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            txtTotalDenda = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            btnRefreshAll = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnDownloadLaporan = new Guna.UI2.WinForms.Guna2Button();
+            btnClose = new Guna.UI2.WinForms.Guna2Button();
+            peringatanNoDenda = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel3.SuspendLayout();
             panel3.SuspendLayout();
             guna2Panel1.SuspendLayout();
             panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridBukuDipinjam).BeginInit();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridKeranjangBuku).BeginInit();
             guna2Panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridRincianDenda).BeginInit();
             panel4.SuspendLayout();
             SuspendLayout();
             // 
@@ -101,28 +103,102 @@
             guna2Panel3.BorderColor = Color.Silver;
             guna2Panel3.BorderRadius = 10;
             guna2Panel3.BorderThickness = 1;
-            guna2Panel3.Controls.Add(guna2HtmlLabel6);
-            guna2Panel3.Controls.Add(guna2HtmlLabel5);
-            guna2Panel3.Controls.Add(guna2HtmlLabel3);
-            guna2Panel3.Controls.Add(guna2HtmlLabel2);
-            guna2Panel3.Controls.Add(guna2HtmlLabel1);
-            guna2Panel3.Controls.Add(lblConsequence);
+            guna2Panel3.Controls.Add(lblTanggalTempo);
+            guna2Panel3.Controls.Add(lblTanggalPinjam);
+            guna2Panel3.Controls.Add(lblStatusPinjam);
+            guna2Panel3.Controls.Add(lblNamaAnggota);
+            guna2Panel3.Controls.Add(lblKodeAnggota);
+            guna2Panel3.Controls.Add(lblKodePeminjaman);
             guna2Panel3.Controls.Add(panel3);
             guna2Panel3.CustomizableEdges = customizableEdges1;
             guna2Panel3.Location = new Point(12, 12);
             guna2Panel3.Name = "guna2Panel3";
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel3.Size = new Size(472, 311);
+            guna2Panel3.Size = new Size(555, 352);
             guna2Panel3.TabIndex = 60;
+            guna2Panel3.Paint += guna2Panel3_Paint;
+            // 
+            // lblTanggalTempo
+            // 
+            lblTanggalTempo.BackColor = Color.Transparent;
+            lblTanggalTempo.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTanggalTempo.ForeColor = Color.Black;
+            lblTanggalTempo.Location = new Point(75, 239);
+            lblTanggalTempo.Name = "lblTanggalTempo";
+            lblTanggalTempo.Size = new Size(119, 22);
+            lblTanggalTempo.TabIndex = 77;
+            lblTanggalTempo.Text = ": 08 Mei 2026";
+            lblTanggalTempo.Click += lblTanggalTempo_Click;
+            // 
+            // lblTanggalPinjam
+            // 
+            lblTanggalPinjam.BackColor = Color.Transparent;
+            lblTanggalPinjam.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTanggalPinjam.ForeColor = Color.Black;
+            lblTanggalPinjam.Location = new Point(75, 202);
+            lblTanggalPinjam.Name = "lblTanggalPinjam";
+            lblTanggalPinjam.Size = new Size(116, 22);
+            lblTanggalPinjam.TabIndex = 76;
+            lblTanggalPinjam.Text = ": 01 Mei 2026                               ";
+            lblTanggalPinjam.Click += lblTanggalPinjam_Click;
+            // 
+            // lblStatusPinjam
+            // 
+            lblStatusPinjam.BackColor = Color.Transparent;
+            lblStatusPinjam.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblStatusPinjam.ForeColor = Color.Black;
+            lblStatusPinjam.Location = new Point(75, 276);
+            lblStatusPinjam.Name = "lblStatusPinjam";
+            lblStatusPinjam.Size = new Size(148, 22);
+            lblStatusPinjam.TabIndex = 75;
+            lblStatusPinjam.Text = ": ✅ Dikembalikan";
+            lblStatusPinjam.Click += lblStatusPinjam_Click;
+            // 
+            // lblNamaAnggota
+            // 
+            lblNamaAnggota.BackColor = Color.Transparent;
+            lblNamaAnggota.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblNamaAnggota.ForeColor = Color.Black;
+            lblNamaAnggota.Location = new Point(75, 127);
+            lblNamaAnggota.Name = "lblNamaAnggota";
+            lblNamaAnggota.Size = new Size(123, 22);
+            lblNamaAnggota.TabIndex = 74;
+            lblNamaAnggota.Text = " : Andi Saputra ";
+            lblNamaAnggota.Click += lblNamaAnggota_Click;
+            // 
+            // lblKodeAnggota
+            // 
+            lblKodeAnggota.BackColor = Color.Transparent;
+            lblKodeAnggota.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblKodeAnggota.ForeColor = Color.Black;
+            lblKodeAnggota.Location = new Point(75, 164);
+            lblKodeAnggota.Name = "lblKodeAnggota";
+            lblKodeAnggota.Size = new Size(89, 22);
+            lblKodeAnggota.TabIndex = 73;
+            lblKodeAnggota.Text = ": AGT-001 ";
+            lblKodeAnggota.Click += lblKodeAnggota_Click;
+            // 
+            // lblKodePeminjaman
+            // 
+            lblKodePeminjaman.BackColor = Color.Transparent;
+            lblKodePeminjaman.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblKodePeminjaman.ForeColor = Color.Black;
+            lblKodePeminjaman.Location = new Point(78, 89);
+            lblKodePeminjaman.Name = "lblKodePeminjaman";
+            lblKodePeminjaman.Size = new Size(145, 22);
+            lblKodePeminjaman.TabIndex = 72;
+            lblKodePeminjaman.Text = " : PJM-20260501";
+            lblKodePeminjaman.Click += lblKodePeminjaman_Click;
             // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(33, 37, 41);
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(0, 3);
+            panel3.Location = new Point(0, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1074, 70);
+            panel3.Size = new Size(555, 73);
             panel3.TabIndex = 1;
+            panel3.Paint += panel3_Paint;
             // 
             // label2
             // 
@@ -136,50 +212,6 @@
             label2.TabIndex = 2;
             label2.Text = "Informasi Peminjaman";
             // 
-            // lblConsequence
-            // 
-            lblConsequence.BackColor = Color.Transparent;
-            lblConsequence.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblConsequence.ForeColor = Color.Black;
-            lblConsequence.Location = new Point(16, 89);
-            lblConsequence.Name = "lblConsequence";
-            lblConsequence.Size = new Size(301, 22);
-            lblConsequence.TabIndex = 65;
-            lblConsequence.Text = "Kode Peminjaman    : PJM-20260501";
-            // 
-            // guna2HtmlLabel1
-            // 
-            guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel1.ForeColor = Color.Black;
-            guna2HtmlLabel1.Location = new Point(16, 127);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(301, 22);
-            guna2HtmlLabel1.TabIndex = 66;
-            guna2HtmlLabel1.Text = "Kode Peminjaman    : PJM-20260501";
-            // 
-            // guna2HtmlLabel2
-            // 
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel2.ForeColor = Color.Black;
-            guna2HtmlLabel2.Location = new Point(16, 202);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(301, 22);
-            guna2HtmlLabel2.TabIndex = 67;
-            guna2HtmlLabel2.Text = "Kode Peminjaman    : PJM-20260501";
-            // 
-            // guna2HtmlLabel3
-            // 
-            guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel3.ForeColor = Color.Black;
-            guna2HtmlLabel3.Location = new Point(16, 164);
-            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(301, 22);
-            guna2HtmlLabel3.TabIndex = 68;
-            guna2HtmlLabel3.Text = "Kode Peminjaman    : PJM-20260501";
-            // 
             // guna2HtmlLabel4
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
@@ -191,121 +223,118 @@
             guna2HtmlLabel4.TabIndex = 69;
             guna2HtmlLabel4.Text = "Kode Peminjaman    : PJM-20260501";
             // 
-            // guna2HtmlLabel5
-            // 
-            guna2HtmlLabel5.BackColor = Color.Transparent;
-            guna2HtmlLabel5.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel5.ForeColor = Color.Black;
-            guna2HtmlLabel5.Location = new Point(16, 239);
-            guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(301, 22);
-            guna2HtmlLabel5.TabIndex = 70;
-            guna2HtmlLabel5.Text = "Kode Peminjaman    : PJM-20260501";
-            // 
-            // guna2HtmlLabel6
-            // 
-            guna2HtmlLabel6.BackColor = Color.Transparent;
-            guna2HtmlLabel6.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel6.ForeColor = Color.Black;
-            guna2HtmlLabel6.Location = new Point(16, 276);
-            guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(301, 22);
-            guna2HtmlLabel6.TabIndex = 71;
-            guna2HtmlLabel6.Text = "Kode Peminjaman    : PJM-20260501";
-            // 
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.FromArgb(240, 242, 245);
             guna2Panel1.BorderColor = Color.Silver;
             guna2Panel1.BorderRadius = 10;
             guna2Panel1.BorderThickness = 1;
-            guna2Panel1.Controls.Add(guna2HtmlLabel7);
-            guna2Panel1.Controls.Add(guna2HtmlLabel8);
-            guna2Panel1.Controls.Add(guna2HtmlLabel9);
-            guna2Panel1.Controls.Add(guna2HtmlLabel10);
+            guna2Panel1.Controls.Add(lblStatusDenda);
+            guna2Panel1.Controls.Add(lblDendaBukuHilang);
+            guna2Panel1.Controls.Add(lblTotalDenda);
+            guna2Panel1.Controls.Add(lblNamaPetugas);
+            guna2Panel1.Controls.Add(lblDendaTerlambat);
+            guna2Panel1.Controls.Add(lblTerlambat);
+            guna2Panel1.Controls.Add(lblTanggalPengembalian);
             guna2Panel1.Controls.Add(panel1);
-            guna2Panel1.Controls.Add(guna2HtmlLabel11);
-            guna2Panel1.Controls.Add(guna2HtmlLabel12);
             guna2Panel1.CustomizableEdges = customizableEdges3;
-            guna2Panel1.Location = new Point(490, 12);
+            guna2Panel1.Location = new Point(582, 12);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Panel1.Size = new Size(482, 311);
+            guna2Panel1.Size = new Size(541, 352);
             guna2Panel1.TabIndex = 72;
             // 
-            // guna2HtmlLabel7
+            // lblStatusDenda
             // 
-            guna2HtmlLabel7.BackColor = Color.Transparent;
-            guna2HtmlLabel7.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel7.ForeColor = Color.Black;
-            guna2HtmlLabel7.Location = new Point(16, 276);
-            guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            guna2HtmlLabel7.Size = new Size(301, 22);
-            guna2HtmlLabel7.TabIndex = 71;
-            guna2HtmlLabel7.Text = "Kode Peminjaman    : PJM-20260501";
+            lblStatusDenda.BackColor = Color.Transparent;
+            lblStatusDenda.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblStatusDenda.ForeColor = Color.Black;
+            lblStatusDenda.Location = new Point(70, 276);
+            lblStatusDenda.Name = "lblStatusDenda";
+            lblStatusDenda.Size = new Size(138, 22);
+            lblStatusDenda.TabIndex = 79;
+            lblStatusDenda.Text = " : ⚠️ Belum Bayar ";
+            lblStatusDenda.Click += lblStatusDenda_Click;
             // 
-            // guna2HtmlLabel8
+            // lblDendaBukuHilang
             // 
-            guna2HtmlLabel8.BackColor = Color.Transparent;
-            guna2HtmlLabel8.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel8.ForeColor = Color.Black;
-            guna2HtmlLabel8.Location = new Point(16, 239);
-            guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(301, 22);
-            guna2HtmlLabel8.TabIndex = 70;
-            guna2HtmlLabel8.Text = "Kode Peminjaman    : PJM-20260501";
+            lblDendaBukuHilang.BackColor = Color.Transparent;
+            lblDendaBukuHilang.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblDendaBukuHilang.ForeColor = Color.Black;
+            lblDendaBukuHilang.Location = new Point(70, 202);
+            lblDendaBukuHilang.Name = "lblDendaBukuHilang";
+            lblDendaBukuHilang.Size = new Size(175, 22);
+            lblDendaBukuHilang.TabIndex = 78;
+            lblDendaBukuHilang.Text = " : Rp 50.000 (1 buku) ";
+            lblDendaBukuHilang.Click += lblDendaBukuHilang_Click;
             // 
-            // guna2HtmlLabel9
+            // lblTotalDenda
             // 
-            guna2HtmlLabel9.BackColor = Color.Transparent;
-            guna2HtmlLabel9.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel9.ForeColor = Color.Black;
-            guna2HtmlLabel9.Location = new Point(16, 164);
-            guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            guna2HtmlLabel9.Size = new Size(301, 22);
-            guna2HtmlLabel9.TabIndex = 68;
-            guna2HtmlLabel9.Text = "Kode Peminjaman    : PJM-20260501";
+            lblTotalDenda.BackColor = Color.Transparent;
+            lblTotalDenda.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotalDenda.ForeColor = Color.Black;
+            lblTotalDenda.Location = new Point(70, 239);
+            lblTotalDenda.Name = "lblTotalDenda";
+            lblTotalDenda.Size = new Size(102, 22);
+            lblTotalDenda.TabIndex = 77;
+            lblTotalDenda.Text = " : Rp 50.000";
+            lblTotalDenda.Click += lblTotalDenda_Click;
             // 
-            // guna2HtmlLabel10
+            // lblNamaPetugas
             // 
-            guna2HtmlLabel10.BackColor = Color.Transparent;
-            guna2HtmlLabel10.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel10.ForeColor = Color.Black;
-            guna2HtmlLabel10.Location = new Point(16, 202);
-            guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            guna2HtmlLabel10.Size = new Size(301, 22);
-            guna2HtmlLabel10.TabIndex = 67;
-            guna2HtmlLabel10.Text = "Kode Peminjaman    : PJM-20260501";
+            lblNamaPetugas.BackColor = Color.Transparent;
+            lblNamaPetugas.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblNamaPetugas.ForeColor = Color.Black;
+            lblNamaPetugas.Location = new Point(70, 310);
+            lblNamaPetugas.Name = "lblNamaPetugas";
+            lblNamaPetugas.Size = new Size(162, 22);
+            lblNamaPetugas.TabIndex = 76;
+            lblNamaPetugas.Text = " : Ahmad Soebardjo ";
+            lblNamaPetugas.Click += lblNamaPetugas_Click;
             // 
-            // guna2HtmlLabel11
+            // lblDendaTerlambat
             // 
-            guna2HtmlLabel11.BackColor = Color.Transparent;
-            guna2HtmlLabel11.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel11.ForeColor = Color.Black;
-            guna2HtmlLabel11.Location = new Point(16, 127);
-            guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            guna2HtmlLabel11.Size = new Size(301, 22);
-            guna2HtmlLabel11.TabIndex = 66;
-            guna2HtmlLabel11.Text = "Kode Peminjaman    : PJM-20260501";
+            lblDendaTerlambat.BackColor = Color.Transparent;
+            lblDendaTerlambat.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblDendaTerlambat.ForeColor = Color.Black;
+            lblDendaTerlambat.Location = new Point(70, 164);
+            lblDendaTerlambat.Name = "lblDendaTerlambat";
+            lblDendaTerlambat.Size = new Size(50, 22);
+            lblDendaTerlambat.TabIndex = 75;
+            lblDendaTerlambat.Text = ": Rp 0  ";
+            lblDendaTerlambat.Click += lblDendaTerlambat_Click;
             // 
-            // guna2HtmlLabel12
+            // lblTerlambat
             // 
-            guna2HtmlLabel12.BackColor = Color.Transparent;
-            guna2HtmlLabel12.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel12.ForeColor = Color.Black;
-            guna2HtmlLabel12.Location = new Point(16, 89);
-            guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            guna2HtmlLabel12.Size = new Size(301, 22);
-            guna2HtmlLabel12.TabIndex = 65;
-            guna2HtmlLabel12.Text = "Kode Peminjaman    : PJM-20260501";
+            lblTerlambat.BackColor = Color.Transparent;
+            lblTerlambat.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTerlambat.ForeColor = Color.Black;
+            lblTerlambat.Location = new Point(70, 127);
+            lblTerlambat.Name = "lblTerlambat";
+            lblTerlambat.Size = new Size(61, 22);
+            lblTerlambat.TabIndex = 74;
+            lblTerlambat.Text = ": 0 hari ";
+            lblTerlambat.Click += lblTerlambat_Click;
+            // 
+            // lblTanggalPengembalian
+            // 
+            lblTanggalPengembalian.BackColor = Color.Transparent;
+            lblTanggalPengembalian.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTanggalPengembalian.ForeColor = Color.Black;
+            lblTanggalPengembalian.Location = new Point(70, 89);
+            lblTanggalPengembalian.Name = "lblTanggalPengembalian";
+            lblTanggalPengembalian.Size = new Size(119, 22);
+            lblTanggalPengembalian.TabIndex = 73;
+            lblTanggalPengembalian.Text = ": 08 Mei 2026";
+            lblTanggalPengembalian.Click += lblTanggalPengembalian_Click;
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(33, 37, 41);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(3, 6);
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(470, 70);
+            panel1.Size = new Size(541, 73);
             panel1.TabIndex = 1;
             // 
             // label1
@@ -325,7 +354,7 @@
             guna2HtmlLabel13.BackColor = Color.Transparent;
             guna2HtmlLabel13.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel13.ForeColor = Color.Black;
-            guna2HtmlLabel13.Location = new Point(567, 301);
+            guna2HtmlLabel13.Location = new Point(652, 298);
             guna2HtmlLabel13.Name = "guna2HtmlLabel13";
             guna2HtmlLabel13.Size = new Size(301, 22);
             guna2HtmlLabel13.TabIndex = 73;
@@ -337,22 +366,74 @@
             guna2Panel2.BorderColor = Color.Silver;
             guna2Panel2.BorderRadius = 10;
             guna2Panel2.BorderThickness = 1;
-            guna2Panel2.Controls.Add(dataGridKeranjangBuku);
+            guna2Panel2.Controls.Add(dataGridBukuDipinjam);
             guna2Panel2.Controls.Add(panel2);
             guna2Panel2.CustomizableEdges = customizableEdges5;
-            guna2Panel2.Location = new Point(12, 350);
+            guna2Panel2.Location = new Point(12, 386);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Panel2.Size = new Size(951, 311);
+            guna2Panel2.Size = new Size(1111, 275);
             guna2Panel2.TabIndex = 74;
+            // 
+            // dataGridBukuDipinjam
+            // 
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridBukuDipinjam.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridBukuDipinjam.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridBukuDipinjam.ColumnHeadersHeight = 4;
+            dataGridBukuDipinjam.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dataGridBukuDipinjam.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridBukuDipinjam.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridBukuDipinjam.Location = new Point(12, 75);
+            dataGridBukuDipinjam.Name = "dataGridBukuDipinjam";
+            dataGridBukuDipinjam.RowHeadersVisible = false;
+            dataGridBukuDipinjam.RowHeadersWidth = 51;
+            dataGridBukuDipinjam.Size = new Size(1081, 178);
+            dataGridBukuDipinjam.TabIndex = 9;
+            dataGridBukuDipinjam.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridBukuDipinjam.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridBukuDipinjam.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridBukuDipinjam.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridBukuDipinjam.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridBukuDipinjam.ThemeStyle.BackColor = Color.White;
+            dataGridBukuDipinjam.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridBukuDipinjam.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridBukuDipinjam.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridBukuDipinjam.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridBukuDipinjam.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridBukuDipinjam.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridBukuDipinjam.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridBukuDipinjam.ThemeStyle.ReadOnly = false;
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.Height = 29;
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridBukuDipinjam.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridBukuDipinjam.CellContentClick += dataGridBukuDipinjam_CellContentClick;
             // 
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(33, 37, 41);
             panel2.Controls.Add(label3);
-            panel2.Location = new Point(-2, 0);
+            panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(953, 66);
+            panel2.Size = new Size(1111, 66);
             panel2.TabIndex = 1;
             // 
             // label3
@@ -378,57 +459,6 @@
             guna2HtmlLabel20.TabIndex = 75;
             guna2HtmlLabel20.Text = "Kode Peminjaman    : PJM-20260501";
             // 
-            // dataGridKeranjangBuku
-            // 
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridKeranjangBuku.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridKeranjangBuku.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridKeranjangBuku.ColumnHeadersHeight = 4;
-            dataGridKeranjangBuku.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.White;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dataGridKeranjangBuku.DefaultCellStyle = dataGridViewCellStyle3;
-            dataGridKeranjangBuku.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridKeranjangBuku.Location = new Point(14, 82);
-            dataGridKeranjangBuku.Name = "dataGridKeranjangBuku";
-            dataGridKeranjangBuku.RowHeadersVisible = false;
-            dataGridKeranjangBuku.RowHeadersWidth = 51;
-            dataGridKeranjangBuku.Size = new Size(922, 214);
-            dataGridKeranjangBuku.TabIndex = 9;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dataGridKeranjangBuku.ThemeStyle.BackColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.Height = 4;
-            dataGridKeranjangBuku.ThemeStyle.ReadOnly = false;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.Height = 29;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
             // guna2Panel4
             // 
             guna2Panel4.BackColor = Color.FromArgb(240, 242, 245);
@@ -437,19 +467,55 @@
             guna2Panel4.BorderThickness = 1;
             guna2Panel4.Controls.Add(txtTotalDenda);
             guna2Panel4.Controls.Add(guna2HtmlLabel15);
-            guna2Panel4.Controls.Add(guna2DataGridView1);
+            guna2Panel4.Controls.Add(dataGridRincianDenda);
             guna2Panel4.Controls.Add(panel4);
             guna2Panel4.CustomizableEdges = customizableEdges9;
             guna2Panel4.Location = new Point(10, 680);
             guna2Panel4.Name = "guna2Panel4";
             guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel4.Size = new Size(951, 311);
+            guna2Panel4.Size = new Size(1113, 311);
             guna2Panel4.TabIndex = 76;
             // 
-            // guna2DataGridView1
+            // txtTotalDenda
+            // 
+            txtTotalDenda.BorderColor = Color.Silver;
+            txtTotalDenda.BorderRadius = 12;
+            txtTotalDenda.BorderThickness = 2;
+            txtTotalDenda.CustomizableEdges = customizableEdges7;
+            txtTotalDenda.DefaultText = "";
+            txtTotalDenda.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtTotalDenda.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtTotalDenda.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtTotalDenda.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtTotalDenda.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtTotalDenda.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtTotalDenda.ForeColor = Color.Black;
+            txtTotalDenda.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtTotalDenda.Location = new Point(898, 264);
+            txtTotalDenda.Margin = new Padding(3, 4, 3, 4);
+            txtTotalDenda.Name = "txtTotalDenda";
+            txtTotalDenda.PlaceholderText = "Rp.";
+            txtTotalDenda.SelectedText = "";
+            txtTotalDenda.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            txtTotalDenda.Size = new Size(195, 43);
+            txtTotalDenda.TabIndex = 63;
+            txtTotalDenda.TextChanged += txtTotalDenda_TextChanged;
+            // 
+            // guna2HtmlLabel15
+            // 
+            guna2HtmlLabel15.BackColor = Color.Transparent;
+            guna2HtmlLabel15.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2HtmlLabel15.ForeColor = Color.Black;
+            guna2HtmlLabel15.Location = new Point(779, 275);
+            guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            guna2HtmlLabel15.Size = new Size(113, 22);
+            guna2HtmlLabel15.TabIndex = 62;
+            guna2HtmlLabel15.Text = "Total Denda :";
+            // 
+            // dataGridRincianDenda
             // 
             dataGridViewCellStyle4.BackColor = Color.White;
-            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridRincianDenda.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
@@ -457,9 +523,9 @@
             dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            guna2DataGridView1.ColumnHeadersHeight = 4;
-            guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridRincianDenda.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridRincianDenda.ColumnHeadersHeight = 4;
+            dataGridRincianDenda.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = Color.White;
             dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
@@ -467,35 +533,36 @@
             dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
             dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(14, 82);
-            guna2DataGridView1.Name = "guna2DataGridView1";
-            guna2DataGridView1.RowHeadersVisible = false;
-            guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(922, 169);
-            guna2DataGridView1.TabIndex = 9;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridRincianDenda.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridRincianDenda.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridRincianDenda.Location = new Point(14, 82);
+            dataGridRincianDenda.Name = "dataGridRincianDenda";
+            dataGridRincianDenda.RowHeadersVisible = false;
+            dataGridRincianDenda.RowHeadersWidth = 51;
+            dataGridRincianDenda.Size = new Size(1081, 169);
+            dataGridRincianDenda.TabIndex = 9;
+            dataGridRincianDenda.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridRincianDenda.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridRincianDenda.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridRincianDenda.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridRincianDenda.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridRincianDenda.ThemeStyle.BackColor = Color.White;
+            dataGridRincianDenda.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridRincianDenda.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridRincianDenda.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridRincianDenda.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridRincianDenda.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridRincianDenda.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridRincianDenda.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridRincianDenda.ThemeStyle.ReadOnly = false;
+            dataGridRincianDenda.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridRincianDenda.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridRincianDenda.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridRincianDenda.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridRincianDenda.ThemeStyle.RowsStyle.Height = 29;
+            dataGridRincianDenda.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridRincianDenda.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridRincianDenda.CellContentClick += dataGridRincianDenda_CellContentClick;
             // 
             // panel4
             // 
@@ -503,7 +570,7 @@
             panel4.Controls.Add(label4);
             panel4.Location = new Point(-2, 0);
             panel4.Name = "panel4";
-            panel4.Size = new Size(953, 66);
+            panel4.Size = new Size(1115, 66);
             panel4.TabIndex = 1;
             // 
             // label4
@@ -529,86 +596,66 @@
             guna2HtmlLabel14.TabIndex = 77;
             guna2HtmlLabel14.Text = "Kode Peminjaman    : PJM-20260501";
             // 
-            // txtTotalDenda
+            // btnDownloadLaporan
             // 
-            txtTotalDenda.BorderColor = Color.Silver;
-            txtTotalDenda.BorderRadius = 12;
-            txtTotalDenda.BorderThickness = 2;
-            txtTotalDenda.CustomizableEdges = customizableEdges7;
-            txtTotalDenda.DefaultText = "";
-            txtTotalDenda.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            txtTotalDenda.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            txtTotalDenda.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            txtTotalDenda.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            txtTotalDenda.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTotalDenda.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtTotalDenda.ForeColor = Color.Black;
-            txtTotalDenda.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTotalDenda.Location = new Point(741, 264);
-            txtTotalDenda.Margin = new Padding(3, 4, 3, 4);
-            txtTotalDenda.Name = "txtTotalDenda";
-            txtTotalDenda.PlaceholderText = "Rp.";
-            txtTotalDenda.SelectedText = "";
-            txtTotalDenda.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtTotalDenda.Size = new Size(195, 43);
-            txtTotalDenda.TabIndex = 63;
+            btnDownloadLaporan.BorderRadius = 15;
+            btnDownloadLaporan.CustomizableEdges = customizableEdges11;
+            btnDownloadLaporan.DisabledState.BorderColor = Color.DarkGray;
+            btnDownloadLaporan.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDownloadLaporan.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDownloadLaporan.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDownloadLaporan.FillColor = Color.Black;
+            btnDownloadLaporan.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDownloadLaporan.ForeColor = Color.White;
+            btnDownloadLaporan.Image = (Image)resources.GetObject("btnDownloadLaporan.Image");
+            btnDownloadLaporan.Location = new Point(757, 1002);
+            btnDownloadLaporan.Name = "btnDownloadLaporan";
+            btnDownloadLaporan.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnDownloadLaporan.Size = new Size(201, 43);
+            btnDownloadLaporan.TabIndex = 78;
+            btnDownloadLaporan.Text = "Download";
+            btnDownloadLaporan.Click += btnDownloadLaporan_Click;
             // 
-            // guna2HtmlLabel15
+            // btnClose
             // 
-            guna2HtmlLabel15.BackColor = Color.Transparent;
-            guna2HtmlLabel15.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel15.ForeColor = Color.Black;
-            guna2HtmlLabel15.Location = new Point(622, 275);
-            guna2HtmlLabel15.Name = "guna2HtmlLabel15";
-            guna2HtmlLabel15.Size = new Size(113, 22);
-            guna2HtmlLabel15.TabIndex = 62;
-            guna2HtmlLabel15.Text = "Total Denda :";
+            btnClose.BorderRadius = 15;
+            btnClose.CustomizableEdges = customizableEdges13;
+            btnClose.DisabledState.BorderColor = Color.DarkGray;
+            btnClose.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnClose.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnClose.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnClose.FillColor = Color.Black;
+            btnClose.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClose.ForeColor = Color.White;
+            btnClose.Image = (Image)resources.GetObject("btnClose.Image");
+            btnClose.Location = new Point(964, 1002);
+            btnClose.Name = "btnClose";
+            btnClose.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnClose.Size = new Size(159, 43);
+            btnClose.TabIndex = 79;
+            btnClose.Text = "Close";
+            btnClose.Click += btnClose_Click;
             // 
-            // btnRefreshAll
+            // peringatanNoDenda
             // 
-            btnRefreshAll.BorderRadius = 15;
-            btnRefreshAll.CustomizableEdges = customizableEdges11;
-            btnRefreshAll.DisabledState.BorderColor = Color.DarkGray;
-            btnRefreshAll.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnRefreshAll.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnRefreshAll.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnRefreshAll.FillColor = Color.Black;
-            btnRefreshAll.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRefreshAll.ForeColor = Color.White;
-            btnRefreshAll.Image = (Image)resources.GetObject("btnRefreshAll.Image");
-            btnRefreshAll.Location = new Point(590, 1002);
-            btnRefreshAll.Name = "btnRefreshAll";
-            btnRefreshAll.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnRefreshAll.Size = new Size(201, 43);
-            btnRefreshAll.TabIndex = 78;
-            btnRefreshAll.Text = "Download";
-            // 
-            // guna2Button1
-            // 
-            guna2Button1.BorderRadius = 15;
-            guna2Button1.CustomizableEdges = customizableEdges13;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Black;
-            guna2Button1.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.Location = new Point(802, 1002);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Button1.Size = new Size(159, 43);
-            guna2Button1.TabIndex = 79;
-            guna2Button1.Text = "Close";
+            peringatanNoDenda.BackColor = Color.Transparent;
+            peringatanNoDenda.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            peringatanNoDenda.ForeColor = Color.Black;
+            peringatanNoDenda.Location = new Point(28, 1012);
+            peringatanNoDenda.Name = "peringatanNoDenda";
+            peringatanNoDenda.Size = new Size(222, 22);
+            peringatanNoDenda.TabIndex = 77;
+            peringatanNoDenda.Text = "User tidak memiliki denda";
+            peringatanNoDenda.Click += peringatanNoDenda_Click;
             // 
             // DetailTransaction
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(982, 1053);
-            Controls.Add(guna2Button1);
-            Controls.Add(btnRefreshAll);
+            ClientSize = new Size(1135, 1053);
+            Controls.Add(peringatanNoDenda);
+            Controls.Add(btnClose);
+            Controls.Add(btnDownloadLaporan);
             Controls.Add(guna2Panel4);
             Controls.Add(guna2HtmlLabel14);
             Controls.Add(guna2Panel2);
@@ -628,12 +675,12 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             guna2Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridBukuDipinjam).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridKeranjangBuku).EndInit();
             guna2Panel4.ResumeLayout(false);
             guna2Panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridRincianDenda).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ResumeLayout(false);
@@ -645,36 +692,38 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Panel panel3;
         private Label label2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblConsequence;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Panel panel1;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Panel panel2;
         private Label label3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
-        private Guna.UI2.WinForms.Guna2DataGridView dataGridKeranjangBuku;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridBukuDipinjam;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridRincianDenda;
         private Panel panel4;
         private Label label4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
         private Guna.UI2.WinForms.Guna2TextBox txtTotalDenda;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
-        private Guna.UI2.WinForms.Guna2Button btnRefreshAll;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnDownloadLaporan;
+        private Guna.UI2.WinForms.Guna2Button btnClose;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTanggalTempo;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTanggalPinjam;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblStatusPinjam;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblNamaAnggota;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblKodeAnggota;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblKodePeminjaman;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblStatusDenda;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblDendaBukuHilang;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalDenda;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblNamaPetugas;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblDendaTerlambat;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTerlambat;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTanggalPengembalian;
+        private Guna.UI2.WinForms.Guna2HtmlLabel peringatanNoDenda;
     }
 }

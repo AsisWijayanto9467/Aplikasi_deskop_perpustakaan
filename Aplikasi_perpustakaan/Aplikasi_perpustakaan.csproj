@@ -12,7 +12,12 @@
     <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
     <PackageReference Include="Dapper" Version="2.1.72" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.5" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WinForms" Version="2.0.2" />
     <PackageReference Include="MySql.Data" Version="9.7.0" />
+    <PackageReference Include="ScottPlot.WinForms" Version="5.1.58" />
     <PackageReference Include="ZXing.Net" Version="0.16.11" />
   </ItemGroup>
 

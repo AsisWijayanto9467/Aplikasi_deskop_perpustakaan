@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Timer = System.Windows.Forms.Timer;
+
 namespace Aplikasi_perpustakaan
 {
     public partial class Dashboard : Form
@@ -15,12 +17,15 @@ namespace Aplikasi_perpustakaan
         private string namaUser;
         private string roleUser;
         private Form currentForm;
+        private Timer timerJam;
 
         public Dashboard(string nama, string role)
         {
             InitializeComponent();
             this.namaUser = nama;
             this.roleUser = role;
+
+            InitializeTimer();
         }
 
         private void Dashboard_Load(object sender, EventArgs e)
@@ -28,34 +33,61 @@ namespace Aplikasi_perpustakaan
             AturHakAkses();
             TampilkanForm(new Home());
             UpdateLabelInfo("Dashboard");
+            UpdateUserInfo();
         }
 
+        // TIMER & USER INFO 
+        private void InitializeTimer()
+        {
+            timerJam = new Timer();
+            timerJam.Interval = 1000;
+            timerJam.Tick += TimerJam_Tick;
+            timerJam.Start();
+        }
+
+        private void TimerJam_Tick(object sender, EventArgs e)
+        {
+            if (lblTimer != null)
+            {
+                lblTimer.Text = DateTime.Now.ToString("HH:mm:ss") + " WIB";
+            }
+        }
+
+        private void UpdateUserInfo()
+        {
+            if (lblRoleAndName != null)
+            {
+                string roleCapitalized = roleUser.Substring(0, 1).ToUpper() + roleUser.Substring(1).ToLower();
+
+                lblRoleAndName.Text = $"{roleCapitalized} - {namaUser}";
+            }
+        }
+
+        // HAK AKSES 
         private void AturHakAkses()
         {
-            if (roleUser == "petugas")
+            btnBooks.Visible = true;
+            btnMember.Visible = true;
+            btnReport.Visible = true;
+
+            if (roleUser.ToLower() == "petugas")
             {
-                MessageBox.Show("Komponen khusus admin telah disembunyikan.", "Info Akses");
-                btnReport.Visible = false;
-            }
-            else if (roleUser == "admin")
-            {
+                btnBooks.Visible = false;
+                btnMember.Visible = false;
             }
         }
 
         private void TampilkanForm(Form formBaru)
         {
-            // HAPUS KONTEN LAMA
             if (mainPanel.Controls.Count > 0)
             {
                 mainPanel.Controls.Clear();
             }
 
-            // 🔥 SETTING FORM AGAR BISA MASUK KE PANEL
             formBaru.TopLevel = false;
             formBaru.Dock = DockStyle.None;
             formBaru.FormBorderStyle = FormBorderStyle.None;
 
-            // 🔥 HITUNG TINGGI FORM SECARA OTOMATIS
             int maxBottom = 0;
             foreach (Control ctrl in formBaru.Controls)
             {
@@ -64,18 +96,15 @@ namespace Aplikasi_perpustakaan
                     maxBottom = bottom;
             }
 
-            // Tambah padding 50px untuk keamanan
             int formHeight = Math.Max(maxBottom + 50, formBaru.MinimumSize.Height);
-            int formWidth = mainPanel.Width - 30; // Kurangi sedikit untuk margin
+            int formWidth = mainPanel.Width - 30;
 
             formBaru.Size = new Size(formWidth, formHeight);
 
-            // 🔥 SETTING SCROLL PANEL
             mainPanel.AutoScroll = true;
             mainPanel.AutoScrollMinSize = new Size(0, 0);
             mainPanel.VerticalScroll.Visible = false;
 
-            // 🔥 AKTIFKAN SCROLL JIKA FORM LEBIH TINGGI DARI PANEL
             if (formHeight > mainPanel.Height)
             {
                 mainPanel.AutoScrollMinSize = new Size(0, formHeight);
@@ -83,7 +112,7 @@ namespace Aplikasi_perpustakaan
             }
 
             mainPanel.Controls.Add(formBaru);
-            formBaru.Location = new Point(10, 0); // Beri sedikit margin kiri
+            formBaru.Location = new Point(10, 0);
             formBaru.Show();
 
             currentForm = formBaru;
@@ -94,7 +123,6 @@ namespace Aplikasi_perpustakaan
             lblInfo.Text = $"📌 Halaman : {halaman}";
         }
 
-        // ========== EVENT CLICK UNTUK SETIAP TOMBOL ==========
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
@@ -120,6 +148,17 @@ namespace Aplikasi_perpustakaan
             UpdateLabelInfo("Books / Buku");
         }
 
+        private void btnPeminjaman_Click(object sender, EventArgs e)
+        {
+            TampilkanForm(new Peminjaman());
+            UpdateLabelInfo("Peminjaman");
+        }
+
+        private void btnPengembalian_Click(object sender, EventArgs e)
+        {
+            TampilkanForm(new Pengembalian());
+            UpdateLabelInfo("Pengembalian");
+        }
 
         private void btnReport_Click(object sender, EventArgs e)
         {
@@ -127,46 +166,45 @@ namespace Aplikasi_perpustakaan
             UpdateLabelInfo("Laporan");
         }
 
-        private void btnPeminjaman_Click(object sender, EventArgs e)
+        public void TampilkanFormDiPanel(Form formBaru)
         {
-            TampilkanForm(new Peminjaman());
-            UpdateLabelInfo("Laporan");
+            TampilkanForm(formBaru);
         }
 
-        private void btnPengembalian_Click(object sender, EventArgs e)
+        public void UpdateLabelInfoPublic(string halaman)
         {
-            TampilkanForm(new Pengembalian());
-            UpdateLabelInfo("Laporan");
-        }
-
-        private void btnDenda_Click(object sender, EventArgs e)
-        {
-            TampilkanForm(new Denda());
-            UpdateLabelInfo("Laporan");
+            UpdateLabelInfo(halaman);
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show(
+                "Apakah Anda yakin ingin logout?",
+                "Konfirmasi Logout",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
 
             if (result == DialogResult.Yes)
             {
+                if (timerJam != null)
+                {
+                    timerJam.Stop();
+                    timerJam.Dispose();
+                }
+
                 Login formLogin = new Login();
                 formLogin.Show();
                 this.Close();
             }
         }
 
-        // ========== METHOD LAIN YANG SUDAH ADA ==========
-
         private void guna2Button7_Click(object sender, EventArgs e) { }
         private void lblTitle_Click(object sender, EventArgs e) { }
-        private void label2_Click(object sender, EventArgs e) { }
         private void lblInfo_Click(object sender, EventArgs e) { }
-
-        private void mainPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        private void mainPanel_Paint(object sender, PaintEventArgs e) { }
+        private void label1_Click(object sender, EventArgs e) { }
+        private void lblTimer_Click(object sender, EventArgs e) { }
+        private void lblRoleAndName_Click(object sender, EventArgs e) { }
     }
 }

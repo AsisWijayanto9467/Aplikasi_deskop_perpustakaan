@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -50,14 +50,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            btnDenda = new Guna.UI2.WinForms.Guna2Button();
             btnPengembalian = new Guna.UI2.WinForms.Guna2Button();
             btnAnggota = new Guna.UI2.WinForms.Guna2Button();
             guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
@@ -68,9 +63,9 @@
             btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             btnLogout = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            label3 = new Label();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            label2 = new Label();
+            label1 = new Label();
+            lblRoleAndName = new Label();
+            lblTimer = new Label();
             lblInfo = new Label();
             lblTitle = new Label();
             mainPanel = new Panel();
@@ -81,7 +76,6 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.Controls.Add(btnDenda);
             guna2Panel1.Controls.Add(btnPengembalian);
             guna2Panel1.Controls.Add(btnAnggota);
             guna2Panel1.Controls.Add(guna2Button7);
@@ -91,43 +85,19 @@
             guna2Panel1.Controls.Add(btnMember);
             guna2Panel1.Controls.Add(btnDashboard);
             guna2Panel1.Controls.Add(btnLogout);
-            guna2Panel1.CustomizableEdges = customizableEdges21;
+            guna2Panel1.CustomizableEdges = customizableEdges19;
             guna2Panel1.FillColor = Color.FromArgb(33, 37, 41);
             guna2Panel1.Location = new Point(-5, -6);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Panel1.Size = new Size(256, 859);
             guna2Panel1.TabIndex = 0;
-            // 
-            // btnDenda
-            // 
-            btnDenda.BackColor = Color.Transparent;
-            btnDenda.BorderRadius = 10;
-            btnDenda.CustomizableEdges = customizableEdges1;
-            btnDenda.DisabledState.BorderColor = Color.DarkGray;
-            btnDenda.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnDenda.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnDenda.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnDenda.FillColor = Color.FromArgb(33, 37, 41);
-            btnDenda.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnDenda.ForeColor = Color.White;
-            btnDenda.Image = (Image)resources.GetObject("btnDenda.Image");
-            btnDenda.ImageAlign = HorizontalAlignment.Left;
-            btnDenda.ImageSize = new Size(25, 25);
-            btnDenda.Location = new Point(16, 463);
-            btnDenda.Name = "btnDenda";
-            btnDenda.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnDenda.Size = new Size(225, 56);
-            btnDenda.TabIndex = 12;
-            btnDenda.Text = "Denda";
-            btnDenda.TextAlign = HorizontalAlignment.Left;
-            btnDenda.Click += btnDenda_Click;
             // 
             // btnPengembalian
             // 
             btnPengembalian.BackColor = Color.Transparent;
             btnPengembalian.BorderRadius = 10;
-            btnPengembalian.CustomizableEdges = customizableEdges3;
+            btnPengembalian.CustomizableEdges = customizableEdges1;
             btnPengembalian.DisabledState.BorderColor = Color.DarkGray;
             btnPengembalian.DisabledState.CustomBorderColor = Color.DarkGray;
             btnPengembalian.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -138,9 +108,9 @@
             btnPengembalian.Image = (Image)resources.GetObject("btnPengembalian.Image");
             btnPengembalian.ImageAlign = HorizontalAlignment.Left;
             btnPengembalian.ImageSize = new Size(25, 25);
-            btnPengembalian.Location = new Point(16, 401);
+            btnPengembalian.Location = new Point(22, 286);
             btnPengembalian.Name = "btnPengembalian";
-            btnPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnPengembalian.Size = new Size(225, 56);
             btnPengembalian.TabIndex = 11;
             btnPengembalian.Text = "Pengembalian";
@@ -151,7 +121,7 @@
             // 
             btnAnggota.BackColor = Color.Transparent;
             btnAnggota.BorderRadius = 10;
-            btnAnggota.CustomizableEdges = customizableEdges5;
+            btnAnggota.CustomizableEdges = customizableEdges3;
             btnAnggota.DisabledState.BorderColor = Color.DarkGray;
             btnAnggota.DisabledState.CustomBorderColor = Color.DarkGray;
             btnAnggota.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -162,9 +132,9 @@
             btnAnggota.Image = (Image)resources.GetObject("btnAnggota.Image");
             btnAnggota.ImageAlign = HorizontalAlignment.Left;
             btnAnggota.ImageSize = new Size(25, 25);
-            btnAnggota.Location = new Point(17, 286);
+            btnAnggota.Location = new Point(17, 162);
             btnAnggota.Name = "btnAnggota";
-            btnAnggota.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnAnggota.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnAnggota.Size = new Size(225, 56);
             btnAnggota.TabIndex = 10;
             btnAnggota.Text = "Anggota";
@@ -173,7 +143,7 @@
             // 
             // guna2Button7
             // 
-            guna2Button7.CustomizableEdges = customizableEdges7;
+            guna2Button7.CustomizableEdges = customizableEdges5;
             guna2Button7.DisabledState.BorderColor = Color.DarkGray;
             guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button7.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -186,7 +156,7 @@
             guna2Button7.ImageSize = new Size(35, 35);
             guna2Button7.Location = new Point(22, 18);
             guna2Button7.Name = "guna2Button7";
-            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button7.Size = new Size(234, 56);
             guna2Button7.TabIndex = 9;
             guna2Button7.Text = "Blibliodesk";
@@ -196,7 +166,7 @@
             // 
             btnPeminjaman.BackColor = Color.Transparent;
             btnPeminjaman.BorderRadius = 10;
-            btnPeminjaman.CustomizableEdges = customizableEdges9;
+            btnPeminjaman.CustomizableEdges = customizableEdges7;
             btnPeminjaman.DisabledState.BorderColor = Color.DarkGray;
             btnPeminjaman.DisabledState.CustomBorderColor = Color.DarkGray;
             btnPeminjaman.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -207,9 +177,9 @@
             btnPeminjaman.Image = (Image)resources.GetObject("btnPeminjaman.Image");
             btnPeminjaman.ImageAlign = HorizontalAlignment.Left;
             btnPeminjaman.ImageSize = new Size(25, 25);
-            btnPeminjaman.Location = new Point(17, 348);
+            btnPeminjaman.Location = new Point(16, 224);
             btnPeminjaman.Name = "btnPeminjaman";
-            btnPeminjaman.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnPeminjaman.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnPeminjaman.Size = new Size(225, 56);
             btnPeminjaman.TabIndex = 8;
             btnPeminjaman.Text = "Peminjaman";
@@ -220,7 +190,7 @@
             // 
             btnReport.BackColor = Color.Transparent;
             btnReport.BorderRadius = 10;
-            btnReport.CustomizableEdges = customizableEdges11;
+            btnReport.CustomizableEdges = customizableEdges9;
             btnReport.DisabledState.BorderColor = Color.DarkGray;
             btnReport.DisabledState.CustomBorderColor = Color.DarkGray;
             btnReport.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -231,9 +201,9 @@
             btnReport.Image = (Image)resources.GetObject("btnReport.Image");
             btnReport.ImageAlign = HorizontalAlignment.Left;
             btnReport.ImageSize = new Size(25, 25);
-            btnReport.Location = new Point(16, 525);
+            btnReport.Location = new Point(16, 348);
             btnReport.Name = "btnReport";
-            btnReport.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnReport.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnReport.Size = new Size(225, 56);
             btnReport.TabIndex = 7;
             btnReport.Text = "Report";
@@ -244,7 +214,7 @@
             // 
             btnBooks.BackColor = Color.Transparent;
             btnBooks.BorderRadius = 10;
-            btnBooks.CustomizableEdges = customizableEdges13;
+            btnBooks.CustomizableEdges = customizableEdges11;
             btnBooks.DisabledState.BorderColor = Color.DarkGray;
             btnBooks.DisabledState.CustomBorderColor = Color.DarkGray;
             btnBooks.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -255,9 +225,9 @@
             btnBooks.Image = (Image)resources.GetObject("btnBooks.Image");
             btnBooks.ImageAlign = HorizontalAlignment.Left;
             btnBooks.ImageSize = new Size(25, 25);
-            btnBooks.Location = new Point(17, 162);
+            btnBooks.Location = new Point(17, 410);
             btnBooks.Name = "btnBooks";
-            btnBooks.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnBooks.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnBooks.Size = new Size(225, 56);
             btnBooks.TabIndex = 6;
             btnBooks.Text = "Books";
@@ -268,7 +238,7 @@
             // 
             btnMember.BackColor = Color.Transparent;
             btnMember.BorderRadius = 10;
-            btnMember.CustomizableEdges = customizableEdges15;
+            btnMember.CustomizableEdges = customizableEdges13;
             btnMember.DisabledState.BorderColor = Color.DarkGray;
             btnMember.DisabledState.CustomBorderColor = Color.DarkGray;
             btnMember.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -279,9 +249,9 @@
             btnMember.Image = (Image)resources.GetObject("btnMember.Image");
             btnMember.ImageAlign = HorizontalAlignment.Left;
             btnMember.ImageSize = new Size(25, 25);
-            btnMember.Location = new Point(17, 224);
+            btnMember.Location = new Point(22, 472);
             btnMember.Name = "btnMember";
-            btnMember.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnMember.ShadowDecoration.CustomizableEdges = customizableEdges14;
             btnMember.Size = new Size(225, 56);
             btnMember.TabIndex = 5;
             btnMember.Text = "Member";
@@ -292,7 +262,7 @@
             // 
             btnDashboard.BackColor = Color.Transparent;
             btnDashboard.BorderRadius = 10;
-            btnDashboard.CustomizableEdges = customizableEdges17;
+            btnDashboard.CustomizableEdges = customizableEdges15;
             btnDashboard.DisabledState.BorderColor = Color.DarkGray;
             btnDashboard.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDashboard.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -305,7 +275,7 @@
             btnDashboard.ImageSize = new Size(25, 25);
             btnDashboard.Location = new Point(17, 100);
             btnDashboard.Name = "btnDashboard";
-            btnDashboard.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnDashboard.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btnDashboard.Size = new Size(225, 56);
             btnDashboard.TabIndex = 4;
             btnDashboard.Text = "Dashboard";
@@ -316,7 +286,7 @@
             // 
             btnLogout.BackColor = Color.Transparent;
             btnLogout.BorderRadius = 10;
-            btnLogout.CustomizableEdges = customizableEdges19;
+            btnLogout.CustomizableEdges = customizableEdges17;
             btnLogout.DisabledState.BorderColor = Color.DarkGray;
             btnLogout.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLogout.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -329,7 +299,7 @@
             btnLogout.ImageSize = new Size(25, 25);
             btnLogout.Location = new Point(17, 791);
             btnLogout.Name = "btnLogout";
-            btnLogout.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnLogout.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnLogout.Size = new Size(225, 56);
             btnLogout.TabIndex = 3;
             btnLogout.Text = "Logout";
@@ -339,65 +309,57 @@
             // guna2Panel2
             // 
             guna2Panel2.BackColor = Color.Transparent;
-            guna2Panel2.Controls.Add(label3);
-            guna2Panel2.Controls.Add(guna2Button1);
-            guna2Panel2.Controls.Add(label2);
+            guna2Panel2.Controls.Add(label1);
+            guna2Panel2.Controls.Add(lblRoleAndName);
+            guna2Panel2.Controls.Add(lblTimer);
             guna2Panel2.Controls.Add(lblInfo);
             guna2Panel2.Controls.Add(lblTitle);
-            guna2Panel2.CustomizableEdges = customizableEdges25;
+            guna2Panel2.CustomizableEdges = customizableEdges21;
             guna2Panel2.FillColor = Color.FromArgb(33, 37, 41);
             guna2Panel2.Location = new Point(242, -3);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Panel2.Size = new Size(1184, 71);
             guna2Panel2.TabIndex = 1;
             // 
-            // label3
+            // label1
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(947, 26);
-            label3.Name = "label3";
-            label3.Size = new Size(161, 24);
-            label3.TabIndex = 11;
-            label3.Text = "Admin - Ahmad";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(864, 26);
+            label1.Name = "label1";
+            label1.Size = new Size(17, 24);
+            label1.TabIndex = 12;
+            label1.Text = "|";
+            label1.Click += label1_Click;
             // 
-            // guna2Button1
+            // lblRoleAndName
             // 
-            guna2Button1.BackColor = Color.Transparent;
-            guna2Button1.BorderRadius = 10;
-            guna2Button1.CustomizableEdges = customizableEdges23;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.FromArgb(33, 37, 41);
-            guna2Button1.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.ImageAlign = HorizontalAlignment.Left;
-            guna2Button1.ImageSize = new Size(25, 25);
-            guna2Button1.Location = new Point(893, 6);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2Button1.Size = new Size(48, 65);
-            guna2Button1.TabIndex = 10;
-            guna2Button1.TextAlign = HorizontalAlignment.Left;
+            lblRoleAndName.AutoSize = true;
+            lblRoleAndName.BackColor = Color.Transparent;
+            lblRoleAndName.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblRoleAndName.ForeColor = Color.White;
+            lblRoleAndName.Location = new Point(887, 26);
+            lblRoleAndName.Name = "lblRoleAndName";
+            lblRoleAndName.Size = new Size(161, 24);
+            lblRoleAndName.TabIndex = 11;
+            lblRoleAndName.Text = "Admin - Ahmad";
+            lblRoleAndName.Click += lblRoleAndName_Click;
             // 
-            // label2
+            // lblTimer
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(743, 26);
-            label2.Name = "label2";
-            label2.Size = new Size(144, 24);
-            label2.TabIndex = 2;
-            label2.Text = "10:45:23 WIB";
-            label2.Click += label2_Click;
+            lblTimer.AutoSize = true;
+            lblTimer.BackColor = Color.Transparent;
+            lblTimer.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTimer.ForeColor = Color.White;
+            lblTimer.Location = new Point(714, 26);
+            lblTimer.Name = "lblTimer";
+            lblTimer.Size = new Size(144, 24);
+            lblTimer.TabIndex = 2;
+            lblTimer.Text = "10:45:23 WIB";
+            lblTimer.Click += lblTimer_Click;
             // 
             // lblInfo
             // 
@@ -469,13 +431,12 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Label lblTitle;
         private Panel mainPanel;
-        private Label label2;
+        private Label lblTimer;
         private Label lblInfo;
-        private Label label3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Label lblRoleAndName;
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2Button btnAnggota;
         private Guna.UI2.WinForms.Guna2Button btnPengembalian;
-        private Guna.UI2.WinForms.Guna2Button btnDenda;
+        private Label label1;
     }
 }

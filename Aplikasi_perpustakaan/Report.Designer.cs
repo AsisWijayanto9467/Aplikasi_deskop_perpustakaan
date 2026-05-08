@@ -64,34 +64,34 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnLaporanPeminjaman = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            dataGridKeranjangBuku = new Guna.UI2.WinForms.Guna2DataGridView();
-            guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            dataGridPeminjaman = new Guna.UI2.WinForms.Guna2DataGridView();
+            datePickerTanggalAkhir = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            comboKategori = new Guna.UI2.WinForms.Guna2ComboBox();
+            datePickerTanggalAwal = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            comboStatus = new Guna.UI2.WinForms.Guna2ComboBox();
             btnSearch = new Guna.UI2.WinForms.Guna2Button();
             txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             panel3 = new Panel();
             label2 = new Label();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            btnLaporanPengembalian = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            guna2DateTimePicker3 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            dataGridPengembalian = new Guna.UI2.WinForms.Guna2DataGridView();
+            datePickerTanggalAkhirPengembalian = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2DateTimePicker4 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            datePickerTanggalAwalPengembalian = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            comboStatusDenda = new Guna.UI2.WinForms.Guna2ComboBox();
+            btnSearchPengembalian = new Guna.UI2.WinForms.Guna2Button();
+            txtSearchPengembalian = new Guna.UI2.WinForms.Guna2TextBox();
             panel1 = new Panel();
             label1 = new Label();
             guna2Panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridKeranjangBuku).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridPeminjaman).BeginInit();
             panel3.SuspendLayout();
             guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridPengembalian).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -101,13 +101,13 @@
             guna2Panel3.BorderColor = Color.Silver;
             guna2Panel3.BorderRadius = 10;
             guna2Panel3.BorderThickness = 1;
-            guna2Panel3.Controls.Add(guna2Button1);
+            guna2Panel3.Controls.Add(btnLaporanPeminjaman);
             guna2Panel3.Controls.Add(guna2HtmlLabel1);
-            guna2Panel3.Controls.Add(dataGridKeranjangBuku);
-            guna2Panel3.Controls.Add(guna2DateTimePicker2);
+            guna2Panel3.Controls.Add(dataGridPeminjaman);
+            guna2Panel3.Controls.Add(datePickerTanggalAkhir);
             guna2Panel3.Controls.Add(guna2HtmlLabel6);
-            guna2Panel3.Controls.Add(guna2DateTimePicker1);
-            guna2Panel3.Controls.Add(comboKategori);
+            guna2Panel3.Controls.Add(datePickerTanggalAwal);
+            guna2Panel3.Controls.Add(comboStatus);
             guna2Panel3.Controls.Add(btnSearch);
             guna2Panel3.Controls.Add(txtSearch);
             guna2Panel3.Controls.Add(panel3);
@@ -118,24 +118,25 @@
             guna2Panel3.Size = new Size(1111, 502);
             guna2Panel3.TabIndex = 60;
             // 
-            // guna2Button1
+            // btnLaporanPeminjaman
             // 
-            guna2Button1.BorderRadius = 15;
-            guna2Button1.CustomizableEdges = customizableEdges1;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Black;
-            guna2Button1.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.Location = new Point(873, 457);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new Size(219, 36);
-            guna2Button1.TabIndex = 36;
-            guna2Button1.Text = "Download Laporan";
+            btnLaporanPeminjaman.BorderRadius = 15;
+            btnLaporanPeminjaman.CustomizableEdges = customizableEdges1;
+            btnLaporanPeminjaman.DisabledState.BorderColor = Color.DarkGray;
+            btnLaporanPeminjaman.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnLaporanPeminjaman.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnLaporanPeminjaman.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnLaporanPeminjaman.FillColor = Color.Black;
+            btnLaporanPeminjaman.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLaporanPeminjaman.ForeColor = Color.White;
+            btnLaporanPeminjaman.Image = (Image)resources.GetObject("btnLaporanPeminjaman.Image");
+            btnLaporanPeminjaman.Location = new Point(873, 457);
+            btnLaporanPeminjaman.Name = "btnLaporanPeminjaman";
+            btnLaporanPeminjaman.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnLaporanPeminjaman.Size = new Size(219, 36);
+            btnLaporanPeminjaman.TabIndex = 36;
+            btnLaporanPeminjaman.Text = "Download Laporan";
+            btnLaporanPeminjaman.Click += btnLaporanPeminjaman_Click;
             // 
             // guna2HtmlLabel1
             // 
@@ -147,12 +148,11 @@
             guna2HtmlLabel1.Size = new Size(106, 21);
             guna2HtmlLabel1.TabIndex = 35;
             guna2HtmlLabel1.Text = "Tanggal Akhir";
-            guna2HtmlLabel1.Click += guna2HtmlLabel1_Click;
             // 
-            // dataGridKeranjangBuku
+            // dataGridPeminjaman
             // 
             dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridKeranjangBuku.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridPeminjaman.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
@@ -160,9 +160,9 @@
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridKeranjangBuku.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridKeranjangBuku.ColumnHeadersHeight = 4;
-            dataGridKeranjangBuku.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridPeminjaman.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridPeminjaman.ColumnHeadersHeight = 4;
+            dataGridPeminjaman.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.White;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
@@ -170,54 +170,56 @@
             dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dataGridKeranjangBuku.DefaultCellStyle = dataGridViewCellStyle3;
-            dataGridKeranjangBuku.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridKeranjangBuku.Location = new Point(26, 238);
-            dataGridKeranjangBuku.Name = "dataGridKeranjangBuku";
-            dataGridKeranjangBuku.RowHeadersVisible = false;
-            dataGridKeranjangBuku.RowHeadersWidth = 51;
-            dataGridKeranjangBuku.Size = new Size(1074, 209);
-            dataGridKeranjangBuku.TabIndex = 8;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dataGridKeranjangBuku.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dataGridKeranjangBuku.ThemeStyle.BackColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridKeranjangBuku.ThemeStyle.HeaderStyle.Height = 4;
-            dataGridKeranjangBuku.ThemeStyle.ReadOnly = false;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.Height = 29;
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridKeranjangBuku.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPeminjaman.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridPeminjaman.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridPeminjaman.Location = new Point(26, 238);
+            dataGridPeminjaman.Name = "dataGridPeminjaman";
+            dataGridPeminjaman.RowHeadersVisible = false;
+            dataGridPeminjaman.RowHeadersWidth = 51;
+            dataGridPeminjaman.Size = new Size(1074, 209);
+            dataGridPeminjaman.TabIndex = 8;
+            dataGridPeminjaman.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridPeminjaman.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridPeminjaman.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridPeminjaman.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridPeminjaman.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridPeminjaman.ThemeStyle.BackColor = Color.White;
+            dataGridPeminjaman.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridPeminjaman.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridPeminjaman.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridPeminjaman.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridPeminjaman.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridPeminjaman.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridPeminjaman.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridPeminjaman.ThemeStyle.ReadOnly = false;
+            dataGridPeminjaman.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridPeminjaman.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridPeminjaman.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridPeminjaman.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPeminjaman.ThemeStyle.RowsStyle.Height = 29;
+            dataGridPeminjaman.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridPeminjaman.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPeminjaman.CellContentClick += dataGridPeminjaman_CellContentClick;
             // 
-            // guna2DateTimePicker2
+            // datePickerTanggalAkhir
             // 
-            guna2DateTimePicker2.BorderColor = Color.Silver;
-            guna2DateTimePicker2.BorderRadius = 12;
-            guna2DateTimePicker2.BorderThickness = 2;
-            guna2DateTimePicker2.Checked = true;
-            guna2DateTimePicker2.CustomizableEdges = customizableEdges3;
-            guna2DateTimePicker2.FillColor = Color.FromArgb(224, 224, 224);
-            guna2DateTimePicker2.Font = new Font("Segoe UI", 9F);
-            guna2DateTimePicker2.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker2.Location = new Point(778, 113);
-            guna2DateTimePicker2.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker2.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2DateTimePicker2.Size = new Size(322, 45);
-            guna2DateTimePicker2.TabIndex = 34;
-            guna2DateTimePicker2.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAkhir.BorderColor = Color.Silver;
+            datePickerTanggalAkhir.BorderRadius = 12;
+            datePickerTanggalAkhir.BorderThickness = 2;
+            datePickerTanggalAkhir.Checked = true;
+            datePickerTanggalAkhir.CustomizableEdges = customizableEdges3;
+            datePickerTanggalAkhir.FillColor = Color.FromArgb(224, 224, 224);
+            datePickerTanggalAkhir.Font = new Font("Segoe UI", 9F);
+            datePickerTanggalAkhir.Format = DateTimePickerFormat.Long;
+            datePickerTanggalAkhir.Location = new Point(774, 113);
+            datePickerTanggalAkhir.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            datePickerTanggalAkhir.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            datePickerTanggalAkhir.Name = "datePickerTanggalAkhir";
+            datePickerTanggalAkhir.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            datePickerTanggalAkhir.Size = new Size(322, 45);
+            datePickerTanggalAkhir.TabIndex = 34;
+            datePickerTanggalAkhir.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAkhir.ValueChanged += datePickerTanggalAkhir_ValueChanged;
             // 
             // guna2HtmlLabel6
             // 
@@ -230,43 +232,45 @@
             guna2HtmlLabel6.TabIndex = 33;
             guna2HtmlLabel6.Text = "Tanggal Awal";
             // 
-            // guna2DateTimePicker1
+            // datePickerTanggalAwal
             // 
-            guna2DateTimePicker1.BorderColor = Color.Silver;
-            guna2DateTimePicker1.BorderRadius = 12;
-            guna2DateTimePicker1.BorderThickness = 2;
-            guna2DateTimePicker1.Checked = true;
-            guna2DateTimePicker1.CustomizableEdges = customizableEdges5;
-            guna2DateTimePicker1.FillColor = Color.FromArgb(224, 224, 224);
-            guna2DateTimePicker1.Font = new Font("Segoe UI", 9F);
-            guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(16, 113);
-            guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2DateTimePicker1.Size = new Size(310, 45);
-            guna2DateTimePicker1.TabIndex = 32;
-            guna2DateTimePicker1.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAwal.BorderColor = Color.Silver;
+            datePickerTanggalAwal.BorderRadius = 12;
+            datePickerTanggalAwal.BorderThickness = 2;
+            datePickerTanggalAwal.Checked = true;
+            datePickerTanggalAwal.CustomizableEdges = customizableEdges5;
+            datePickerTanggalAwal.FillColor = Color.FromArgb(224, 224, 224);
+            datePickerTanggalAwal.Font = new Font("Segoe UI", 9F);
+            datePickerTanggalAwal.Format = DateTimePickerFormat.Long;
+            datePickerTanggalAwal.Location = new Point(16, 113);
+            datePickerTanggalAwal.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            datePickerTanggalAwal.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            datePickerTanggalAwal.Name = "datePickerTanggalAwal";
+            datePickerTanggalAwal.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            datePickerTanggalAwal.Size = new Size(310, 45);
+            datePickerTanggalAwal.TabIndex = 32;
+            datePickerTanggalAwal.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAwal.ValueChanged += datePickerTanggalAwal_ValueChanged;
             // 
-            // comboKategori
+            // comboStatus
             // 
-            comboKategori.BackColor = Color.Transparent;
-            comboKategori.BorderRadius = 12;
-            comboKategori.CustomizableEdges = customizableEdges7;
-            comboKategori.DrawMode = DrawMode.OwnerDrawFixed;
-            comboKategori.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboKategori.FillColor = Color.Black;
-            comboKategori.FocusedColor = Color.FromArgb(94, 148, 255);
-            comboKategori.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            comboKategori.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboKategori.ForeColor = Color.White;
-            comboKategori.ItemHeight = 30;
-            comboKategori.Location = new Point(939, 178);
-            comboKategori.Name = "comboKategori";
-            comboKategori.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            comboKategori.Size = new Size(161, 36);
-            comboKategori.TabIndex = 29;
+            comboStatus.BackColor = Color.Transparent;
+            comboStatus.BorderRadius = 12;
+            comboStatus.CustomizableEdges = customizableEdges7;
+            comboStatus.DrawMode = DrawMode.OwnerDrawFixed;
+            comboStatus.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboStatus.FillColor = Color.Black;
+            comboStatus.FocusedColor = Color.FromArgb(94, 148, 255);
+            comboStatus.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            comboStatus.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboStatus.ForeColor = Color.White;
+            comboStatus.ItemHeight = 30;
+            comboStatus.Location = new Point(939, 178);
+            comboStatus.Name = "comboStatus";
+            comboStatus.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            comboStatus.Size = new Size(161, 36);
+            comboStatus.TabIndex = 29;
+            comboStatus.SelectedIndexChanged += comboStatus_SelectedIndexChanged;
             // 
             // btnSearch
             // 
@@ -286,6 +290,7 @@
             btnSearch.Size = new Size(159, 36);
             btnSearch.TabIndex = 28;
             btnSearch.Text = "Cari";
+            btnSearch.Click += btnSearch_Click;
             // 
             // txtSearch
             // 
@@ -310,6 +315,7 @@
             txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges12;
             txtSearch.Size = new Size(752, 38);
             txtSearch.TabIndex = 27;
+            txtSearch.TextChanged += txtSearch_TextChanged;
             // 
             // panel3
             // 
@@ -338,15 +344,15 @@
             guna2Panel1.BorderColor = Color.Silver;
             guna2Panel1.BorderRadius = 10;
             guna2Panel1.BorderThickness = 1;
-            guna2Panel1.Controls.Add(guna2Button2);
+            guna2Panel1.Controls.Add(btnLaporanPengembalian);
             guna2Panel1.Controls.Add(guna2HtmlLabel2);
-            guna2Panel1.Controls.Add(guna2DataGridView1);
-            guna2Panel1.Controls.Add(guna2DateTimePicker3);
+            guna2Panel1.Controls.Add(dataGridPengembalian);
+            guna2Panel1.Controls.Add(datePickerTanggalAkhirPengembalian);
             guna2Panel1.Controls.Add(guna2HtmlLabel3);
-            guna2Panel1.Controls.Add(guna2DateTimePicker4);
-            guna2Panel1.Controls.Add(guna2ComboBox1);
-            guna2Panel1.Controls.Add(guna2Button3);
-            guna2Panel1.Controls.Add(guna2TextBox1);
+            guna2Panel1.Controls.Add(datePickerTanggalAwalPengembalian);
+            guna2Panel1.Controls.Add(comboStatusDenda);
+            guna2Panel1.Controls.Add(btnSearchPengembalian);
+            guna2Panel1.Controls.Add(txtSearchPengembalian);
             guna2Panel1.Controls.Add(panel1);
             guna2Panel1.CustomizableEdges = customizableEdges27;
             guna2Panel1.Location = new Point(12, 537);
@@ -355,24 +361,25 @@
             guna2Panel1.Size = new Size(1111, 509);
             guna2Panel1.TabIndex = 61;
             // 
-            // guna2Button2
+            // btnLaporanPengembalian
             // 
-            guna2Button2.BorderRadius = 15;
-            guna2Button2.CustomizableEdges = customizableEdges15;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.Black;
-            guna2Button2.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.White;
-            guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
-            guna2Button2.Location = new Point(881, 460);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2Button2.Size = new Size(219, 36);
-            guna2Button2.TabIndex = 36;
-            guna2Button2.Text = "Download Laporan";
+            btnLaporanPengembalian.BorderRadius = 15;
+            btnLaporanPengembalian.CustomizableEdges = customizableEdges15;
+            btnLaporanPengembalian.DisabledState.BorderColor = Color.DarkGray;
+            btnLaporanPengembalian.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnLaporanPengembalian.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnLaporanPengembalian.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnLaporanPengembalian.FillColor = Color.Black;
+            btnLaporanPengembalian.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLaporanPengembalian.ForeColor = Color.White;
+            btnLaporanPengembalian.Image = (Image)resources.GetObject("btnLaporanPengembalian.Image");
+            btnLaporanPengembalian.Location = new Point(881, 460);
+            btnLaporanPengembalian.Name = "btnLaporanPengembalian";
+            btnLaporanPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnLaporanPengembalian.Size = new Size(219, 36);
+            btnLaporanPengembalian.TabIndex = 36;
+            btnLaporanPengembalian.Text = "Download Laporan";
+            btnLaporanPengembalian.Click += btnLaporanPengembalian_Click;
             // 
             // guna2HtmlLabel2
             // 
@@ -385,10 +392,10 @@
             guna2HtmlLabel2.TabIndex = 35;
             guna2HtmlLabel2.Text = "Tanggal Akhir";
             // 
-            // guna2DataGridView1
+            // dataGridPengembalian
             // 
             dataGridViewCellStyle4.BackColor = Color.White;
-            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridPengembalian.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
@@ -396,9 +403,9 @@
             dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            guna2DataGridView1.ColumnHeadersHeight = 4;
-            guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridPengembalian.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridPengembalian.ColumnHeadersHeight = 4;
+            dataGridPengembalian.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = Color.White;
             dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
@@ -406,54 +413,56 @@
             dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
             dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(26, 238);
-            guna2DataGridView1.Name = "guna2DataGridView1";
-            guna2DataGridView1.RowHeadersVisible = false;
-            guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(1074, 205);
-            guna2DataGridView1.TabIndex = 8;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPengembalian.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridPengembalian.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridPengembalian.Location = new Point(16, 235);
+            dataGridPengembalian.Name = "dataGridPengembalian";
+            dataGridPengembalian.RowHeadersVisible = false;
+            dataGridPengembalian.RowHeadersWidth = 51;
+            dataGridPengembalian.Size = new Size(1074, 205);
+            dataGridPengembalian.TabIndex = 8;
+            dataGridPengembalian.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridPengembalian.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridPengembalian.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridPengembalian.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridPengembalian.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridPengembalian.ThemeStyle.BackColor = Color.White;
+            dataGridPengembalian.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridPengembalian.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridPengembalian.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridPengembalian.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridPengembalian.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridPengembalian.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridPengembalian.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridPengembalian.ThemeStyle.ReadOnly = false;
+            dataGridPengembalian.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridPengembalian.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridPengembalian.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridPengembalian.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPengembalian.ThemeStyle.RowsStyle.Height = 29;
+            dataGridPengembalian.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridPengembalian.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPengembalian.CellContentClick += dataGridPengembalian_CellContentClick;
             // 
-            // guna2DateTimePicker3
+            // datePickerTanggalAkhirPengembalian
             // 
-            guna2DateTimePicker3.BorderColor = Color.Silver;
-            guna2DateTimePicker3.BorderRadius = 12;
-            guna2DateTimePicker3.BorderThickness = 2;
-            guna2DateTimePicker3.Checked = true;
-            guna2DateTimePicker3.CustomizableEdges = customizableEdges17;
-            guna2DateTimePicker3.FillColor = Color.FromArgb(224, 224, 224);
-            guna2DateTimePicker3.Font = new Font("Segoe UI", 9F);
-            guna2DateTimePicker3.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker3.Location = new Point(778, 113);
-            guna2DateTimePicker3.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker3.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker3.Name = "guna2DateTimePicker3";
-            guna2DateTimePicker3.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2DateTimePicker3.Size = new Size(322, 45);
-            guna2DateTimePicker3.TabIndex = 34;
-            guna2DateTimePicker3.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAkhirPengembalian.BorderColor = Color.Silver;
+            datePickerTanggalAkhirPengembalian.BorderRadius = 12;
+            datePickerTanggalAkhirPengembalian.BorderThickness = 2;
+            datePickerTanggalAkhirPengembalian.Checked = true;
+            datePickerTanggalAkhirPengembalian.CustomizableEdges = customizableEdges17;
+            datePickerTanggalAkhirPengembalian.FillColor = Color.FromArgb(224, 224, 224);
+            datePickerTanggalAkhirPengembalian.Font = new Font("Segoe UI", 9F);
+            datePickerTanggalAkhirPengembalian.Format = DateTimePickerFormat.Long;
+            datePickerTanggalAkhirPengembalian.Location = new Point(778, 113);
+            datePickerTanggalAkhirPengembalian.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            datePickerTanggalAkhirPengembalian.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            datePickerTanggalAkhirPengembalian.Name = "datePickerTanggalAkhirPengembalian";
+            datePickerTanggalAkhirPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            datePickerTanggalAkhirPengembalian.Size = new Size(322, 45);
+            datePickerTanggalAkhirPengembalian.TabIndex = 34;
+            datePickerTanggalAkhirPengembalian.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAkhirPengembalian.ValueChanged += datePickerTanggalAkhirPengembalian_ValueChanged;
             // 
             // guna2HtmlLabel3
             // 
@@ -466,86 +475,90 @@
             guna2HtmlLabel3.TabIndex = 33;
             guna2HtmlLabel3.Text = "Tanggal Awal";
             // 
-            // guna2DateTimePicker4
+            // datePickerTanggalAwalPengembalian
             // 
-            guna2DateTimePicker4.BorderColor = Color.Silver;
-            guna2DateTimePicker4.BorderRadius = 12;
-            guna2DateTimePicker4.BorderThickness = 2;
-            guna2DateTimePicker4.Checked = true;
-            guna2DateTimePicker4.CustomizableEdges = customizableEdges19;
-            guna2DateTimePicker4.FillColor = Color.FromArgb(224, 224, 224);
-            guna2DateTimePicker4.Font = new Font("Segoe UI", 9F);
-            guna2DateTimePicker4.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker4.Location = new Point(16, 113);
-            guna2DateTimePicker4.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker4.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker4.Name = "guna2DateTimePicker4";
-            guna2DateTimePicker4.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2DateTimePicker4.Size = new Size(310, 45);
-            guna2DateTimePicker4.TabIndex = 32;
-            guna2DateTimePicker4.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAwalPengembalian.BorderColor = Color.Silver;
+            datePickerTanggalAwalPengembalian.BorderRadius = 12;
+            datePickerTanggalAwalPengembalian.BorderThickness = 2;
+            datePickerTanggalAwalPengembalian.Checked = true;
+            datePickerTanggalAwalPengembalian.CustomizableEdges = customizableEdges19;
+            datePickerTanggalAwalPengembalian.FillColor = Color.FromArgb(224, 224, 224);
+            datePickerTanggalAwalPengembalian.Font = new Font("Segoe UI", 9F);
+            datePickerTanggalAwalPengembalian.Format = DateTimePickerFormat.Long;
+            datePickerTanggalAwalPengembalian.Location = new Point(16, 113);
+            datePickerTanggalAwalPengembalian.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            datePickerTanggalAwalPengembalian.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            datePickerTanggalAwalPengembalian.Name = "datePickerTanggalAwalPengembalian";
+            datePickerTanggalAwalPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            datePickerTanggalAwalPengembalian.Size = new Size(310, 45);
+            datePickerTanggalAwalPengembalian.TabIndex = 32;
+            datePickerTanggalAwalPengembalian.Value = new DateTime(2026, 5, 6, 14, 26, 17, 440);
+            datePickerTanggalAwalPengembalian.ValueChanged += datePickerTanggalAwalPengembalian_ValueChanged;
             // 
-            // guna2ComboBox1
+            // comboStatusDenda
             // 
-            guna2ComboBox1.BackColor = Color.Transparent;
-            guna2ComboBox1.BorderRadius = 12;
-            guna2ComboBox1.CustomizableEdges = customizableEdges21;
-            guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox1.FillColor = Color.Black;
-            guna2ComboBox1.FocusedColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox1.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2ComboBox1.ForeColor = Color.White;
-            guna2ComboBox1.ItemHeight = 30;
-            guna2ComboBox1.Location = new Point(939, 178);
-            guna2ComboBox1.Name = "guna2ComboBox1";
-            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2ComboBox1.Size = new Size(161, 36);
-            guna2ComboBox1.TabIndex = 29;
+            comboStatusDenda.BackColor = Color.Transparent;
+            comboStatusDenda.BorderRadius = 12;
+            comboStatusDenda.CustomizableEdges = customizableEdges21;
+            comboStatusDenda.DrawMode = DrawMode.OwnerDrawFixed;
+            comboStatusDenda.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboStatusDenda.FillColor = Color.Black;
+            comboStatusDenda.FocusedColor = Color.FromArgb(94, 148, 255);
+            comboStatusDenda.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            comboStatusDenda.Font = new Font("Inter", 10.1999989F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboStatusDenda.ForeColor = Color.White;
+            comboStatusDenda.ItemHeight = 30;
+            comboStatusDenda.Location = new Point(939, 178);
+            comboStatusDenda.Name = "comboStatusDenda";
+            comboStatusDenda.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            comboStatusDenda.Size = new Size(161, 36);
+            comboStatusDenda.TabIndex = 29;
+            comboStatusDenda.SelectedIndexChanged += comboStatusDenda_SelectedIndexChanged;
             // 
-            // guna2Button3
+            // btnSearchPengembalian
             // 
-            guna2Button3.BorderRadius = 15;
-            guna2Button3.CustomizableEdges = customizableEdges23;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.Black;
-            guna2Button3.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.Image = (Image)resources.GetObject("guna2Button3.Image");
-            guna2Button3.Location = new Point(774, 178);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2Button3.Size = new Size(159, 36);
-            guna2Button3.TabIndex = 28;
-            guna2Button3.Text = "Cari";
+            btnSearchPengembalian.BorderRadius = 15;
+            btnSearchPengembalian.CustomizableEdges = customizableEdges23;
+            btnSearchPengembalian.DisabledState.BorderColor = Color.DarkGray;
+            btnSearchPengembalian.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSearchPengembalian.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSearchPengembalian.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSearchPengembalian.FillColor = Color.Black;
+            btnSearchPengembalian.Font = new Font("Inter", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSearchPengembalian.ForeColor = Color.White;
+            btnSearchPengembalian.Image = (Image)resources.GetObject("btnSearchPengembalian.Image");
+            btnSearchPengembalian.Location = new Point(774, 178);
+            btnSearchPengembalian.Name = "btnSearchPengembalian";
+            btnSearchPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnSearchPengembalian.Size = new Size(159, 36);
+            btnSearchPengembalian.TabIndex = 28;
+            btnSearchPengembalian.Text = "Cari";
+            btnSearchPengembalian.Click += btnSearchPengembalian_Click;
             // 
-            // guna2TextBox1
+            // txtSearchPengembalian
             // 
-            guna2TextBox1.BorderColor = Color.Silver;
-            guna2TextBox1.BorderRadius = 12;
-            guna2TextBox1.BorderThickness = 2;
-            guna2TextBox1.CustomizableEdges = customizableEdges25;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox1.ForeColor = Color.Black;
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(16, 176);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PlaceholderText = "Cari Pengembalian";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            guna2TextBox1.Size = new Size(752, 38);
-            guna2TextBox1.TabIndex = 27;
+            txtSearchPengembalian.BorderColor = Color.Silver;
+            txtSearchPengembalian.BorderRadius = 12;
+            txtSearchPengembalian.BorderThickness = 2;
+            txtSearchPengembalian.CustomizableEdges = customizableEdges25;
+            txtSearchPengembalian.DefaultText = "";
+            txtSearchPengembalian.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtSearchPengembalian.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtSearchPengembalian.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtSearchPengembalian.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtSearchPengembalian.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSearchPengembalian.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSearchPengembalian.ForeColor = Color.Black;
+            txtSearchPengembalian.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSearchPengembalian.Location = new Point(16, 176);
+            txtSearchPengembalian.Margin = new Padding(3, 4, 3, 4);
+            txtSearchPengembalian.Name = "txtSearchPengembalian";
+            txtSearchPengembalian.PlaceholderText = "Cari Pengembalian";
+            txtSearchPengembalian.SelectedText = "";
+            txtSearchPengembalian.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            txtSearchPengembalian.Size = new Size(752, 38);
+            txtSearchPengembalian.TabIndex = 27;
+            txtSearchPengembalian.TextChanged += txtSearchPengembalian_TextChanged;
             // 
             // panel1
             // 
@@ -580,12 +593,12 @@
             Load += Report_Load;
             guna2Panel3.ResumeLayout(false);
             guna2Panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridKeranjangBuku).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridPeminjaman).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridPengembalian).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -594,27 +607,27 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2DataGridView dataGridKeranjangBuku;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridPeminjaman;
         private Panel panel3;
         private Label label2;
-        private Guna.UI2.WinForms.Guna2ComboBox comboKategori;
+        private Guna.UI2.WinForms.Guna2ComboBox comboStatus;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePickerTanggalAwal;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePickerTanggalAkhir;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnLaporanPeminjaman;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnLaporanPengembalian;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker3;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridPengembalian;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePickerTanggalAkhirPengembalian;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker4;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePickerTanggalAwalPengembalian;
+        private Guna.UI2.WinForms.Guna2ComboBox comboStatusDenda;
+        private Guna.UI2.WinForms.Guna2Button btnSearchPengembalian;
+        private Guna.UI2.WinForms.Guna2TextBox txtSearchPengembalian;
         private Panel panel1;
         private Label label1;
     }

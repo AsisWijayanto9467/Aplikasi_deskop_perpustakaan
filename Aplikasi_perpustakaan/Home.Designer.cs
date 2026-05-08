@@ -28,66 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle28 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle29 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle30 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle31 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle32 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle33 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle34 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle35 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle36 = new DataGridViewCellStyle();
+            LiveChartsCore.SkiaSharpView.SKCharts.SKDefaultLegend skDefaultLegend1 = new LiveChartsCore.SkiaSharpView.SKCharts.SKDefaultLegend();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            LiveChartsCore.Drawing.Padding padding1 = new LiveChartsCore.Drawing.Padding();
+            LiveChartsCore.SkiaSharpView.SKCharts.SKDefaultTooltip skDefaultTooltip1 = new LiveChartsCore.SkiaSharpView.SKCharts.SKDefaultTooltip();
+            LiveChartsCore.Drawing.Padding padding2 = new LiveChartsCore.Drawing.Padding();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
             guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            chartPenjualan = new LiveChartsCore.SkiaSharpView.WinForms.CartesianChart();
+            label3 = new Label();
             guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            lblTotalBuku = new Label();
+            label6 = new Label();
             guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            lblTotalAnggota = new Label();
+            label7 = new Label();
             guna2ShadowPanel5 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            lblTotalDenda = new Label();
+            label5 = new Label();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            dataGridRiwayatPeminjaman = new Guna.UI2.WinForms.Guna2DataGridView();
             panel2 = new Panel();
             lblTitle = new Label();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            dataGridBukuPopuler = new Guna.UI2.WinForms.Guna2DataGridView();
             panel1 = new Panel();
             label1 = new Label();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            dataGridPengembalianTerlambat = new Guna.UI2.WinForms.Guna2DataGridView();
             panel3 = new Panel();
             label2 = new Label();
-            guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
-            guna2DataGridView3 = new Guna.UI2.WinForms.Guna2DataGridView();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
+            mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             guna2ShadowPanel1.SuspendLayout();
             guna2ShadowPanel2.SuspendLayout();
             guna2ShadowPanel3.SuspendLayout();
             guna2ShadowPanel5.SuspendLayout();
             guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridRiwayatPeminjaman).BeginInit();
             panel2.SuspendLayout();
             guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridBukuPopuler).BeginInit();
             panel1.SuspendLayout();
             guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridPengembalianTerlambat).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView3).BeginInit();
             SuspendLayout();
             // 
             // guna2ShadowPanel1
             // 
             guna2ShadowPanel1.BackColor = Color.Transparent;
-            guna2ShadowPanel1.Controls.Add(label9);
-            guna2ShadowPanel1.Controls.Add(label8);
-            guna2ShadowPanel1.Controls.Add(label4);
+            guna2ShadowPanel1.Controls.Add(chartPenjualan);
             guna2ShadowPanel1.Controls.Add(label3);
             guna2ShadowPanel1.FillColor = Color.White;
             guna2ShadowPanel1.Location = new Point(12, 12);
@@ -96,9 +101,65 @@
             guna2ShadowPanel1.Size = new Size(1111, 289);
             guna2ShadowPanel1.TabIndex = 0;
             // 
+            // chartPenjualan
+            // 
+            chartPenjualan.AutoUpdateEnabled = true;
+            chartPenjualan.ChartTheme = null;
+            skDefaultLegend1.AnimationsSpeed = TimeSpan.Parse("00:00:00.1500000");
+            skDefaultLegend1.Content = null;
+            skDefaultLegend1.IsValid = false;
+            skDefaultLegend1.Opacity = 1F;
+            padding1.Bottom = 0F;
+            padding1.Left = 0F;
+            padding1.Right = 0F;
+            padding1.Top = 0F;
+            skDefaultLegend1.Padding = padding1;
+            skDefaultLegend1.RemoveOnCompleted = false;
+            skDefaultLegend1.RotateTransform = 0F;
+            skDefaultLegend1.X = 0F;
+            skDefaultLegend1.Y = 0F;
+            chartPenjualan.Legend = skDefaultLegend1;
+            chartPenjualan.Location = new Point(23, 45);
+            chartPenjualan.MatchAxesScreenDataRatio = false;
+            chartPenjualan.Name = "chartPenjualan";
+            chartPenjualan.Size = new Size(1060, 220);
+            chartPenjualan.TabIndex = 4;
+            skDefaultTooltip1.AnimationsSpeed = TimeSpan.Parse("00:00:00.1500000");
+            skDefaultTooltip1.Content = null;
+            skDefaultTooltip1.IsValid = false;
+            skDefaultTooltip1.Opacity = 1F;
+            padding2.Bottom = 0F;
+            padding2.Left = 0F;
+            padding2.Right = 0F;
+            padding2.Top = 0F;
+            skDefaultTooltip1.Padding = padding2;
+            skDefaultTooltip1.RemoveOnCompleted = false;
+            skDefaultTooltip1.RotateTransform = 0F;
+            skDefaultTooltip1.Wedge = 10;
+            skDefaultTooltip1.X = 0F;
+            skDefaultTooltip1.Y = 0F;
+            chartPenjualan.Tooltip = skDefaultTooltip1;
+            chartPenjualan.TooltipFindingStrategy = LiveChartsCore.Measure.TooltipFindingStrategy.Automatic;
+            chartPenjualan.UpdaterThrottler = TimeSpan.Parse("00:00:00.0500000");
+            chartPenjualan.Load += chartPenjualan_Load;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(23, 18);
+            label3.Name = "label3";
+            label3.Size = new Size(277, 24);
+            label3.TabIndex = 3;
+            label3.Text = "Grafik Peminjaman Bulanan";
+            label3.Click += label3_Click;
+            // 
             // guna2ShadowPanel2
             // 
             guna2ShadowPanel2.BackColor = Color.Transparent;
+            guna2ShadowPanel2.Controls.Add(lblTotalBuku);
             guna2ShadowPanel2.Controls.Add(label6);
             guna2ShadowPanel2.Controls.Add(guna2ShadowPanel4);
             guna2ShadowPanel2.FillColor = Color.White;
@@ -108,16 +169,30 @@
             guna2ShadowPanel2.Size = new Size(363, 146);
             guna2ShadowPanel2.TabIndex = 1;
             // 
-            // guna2ShadowPanel3
+            // lblTotalBuku
             // 
-            guna2ShadowPanel3.BackColor = Color.Transparent;
-            guna2ShadowPanel3.Controls.Add(label7);
-            guna2ShadowPanel3.FillColor = Color.White;
-            guna2ShadowPanel3.Location = new Point(753, 317);
-            guna2ShadowPanel3.Name = "guna2ShadowPanel3";
-            guna2ShadowPanel3.ShadowColor = Color.Black;
-            guna2ShadowPanel3.Size = new Size(363, 146);
-            guna2ShadowPanel3.TabIndex = 2;
+            lblTotalBuku.AutoSize = true;
+            lblTotalBuku.BackColor = Color.Transparent;
+            lblTotalBuku.Font = new Font("Inter", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotalBuku.ForeColor = Color.Black;
+            lblTotalBuku.Location = new Point(140, 61);
+            lblTotalBuku.Name = "lblTotalBuku";
+            lblTotalBuku.Size = new Size(79, 41);
+            lblTotalBuku.TabIndex = 7;
+            lblTotalBuku.Text = "120";
+            lblTotalBuku.Click += lblTotalBuku_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.Black;
+            label6.Location = new Point(128, 24);
+            label6.Name = "label6";
+            label6.Size = new Size(102, 21);
+            label6.TabIndex = 6;
+            label6.Text = "Total Buku";
             // 
             // guna2ShadowPanel4
             // 
@@ -129,9 +204,47 @@
             guna2ShadowPanel4.Size = new Size(370, 186);
             guna2ShadowPanel4.TabIndex = 2;
             // 
+            // guna2ShadowPanel3
+            // 
+            guna2ShadowPanel3.BackColor = Color.Transparent;
+            guna2ShadowPanel3.Controls.Add(lblTotalAnggota);
+            guna2ShadowPanel3.Controls.Add(label7);
+            guna2ShadowPanel3.FillColor = Color.White;
+            guna2ShadowPanel3.Location = new Point(753, 317);
+            guna2ShadowPanel3.Name = "guna2ShadowPanel3";
+            guna2ShadowPanel3.ShadowColor = Color.Black;
+            guna2ShadowPanel3.Size = new Size(363, 146);
+            guna2ShadowPanel3.TabIndex = 2;
+            // 
+            // lblTotalAnggota
+            // 
+            lblTotalAnggota.AutoSize = true;
+            lblTotalAnggota.BackColor = Color.Transparent;
+            lblTotalAnggota.Font = new Font("Inter", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotalAnggota.ForeColor = Color.Black;
+            lblTotalAnggota.Location = new Point(158, 64);
+            lblTotalAnggota.Name = "lblTotalAnggota";
+            lblTotalAnggota.Size = new Size(62, 41);
+            lblTotalAnggota.TabIndex = 8;
+            lblTotalAnggota.Text = "56";
+            lblTotalAnggota.Click += lblTotalAnggota_Click;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.Black;
+            label7.Location = new Point(124, 24);
+            label7.Name = "label7";
+            label7.Size = new Size(132, 21);
+            label7.TabIndex = 5;
+            label7.Text = "Total Anggota";
+            // 
             // guna2ShadowPanel5
             // 
             guna2ShadowPanel5.BackColor = Color.Transparent;
+            guna2ShadowPanel5.Controls.Add(lblTotalDenda);
             guna2ShadowPanel5.Controls.Add(label5);
             guna2ShadowPanel5.FillColor = Color.White;
             guna2ShadowPanel5.Location = new Point(383, 317);
@@ -140,20 +253,97 @@
             guna2ShadowPanel5.Size = new Size(364, 146);
             guna2ShadowPanel5.TabIndex = 3;
             // 
+            // lblTotalDenda
+            // 
+            lblTotalDenda.AutoSize = true;
+            lblTotalDenda.BackColor = Color.Transparent;
+            lblTotalDenda.Font = new Font("Inter", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotalDenda.ForeColor = Color.Black;
+            lblTotalDenda.Location = new Point(93, 64);
+            lblTotalDenda.Name = "lblTotalDenda";
+            lblTotalDenda.Size = new Size(164, 28);
+            lblTotalDenda.TabIndex = 9;
+            lblTotalDenda.Text = "Rp 1.500.000";
+            lblTotalDenda.Click += lblTotalDenda_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Black;
+            label5.Location = new Point(124, 24);
+            label5.Name = "label5";
+            label5.Size = new Size(114, 21);
+            label5.TabIndex = 5;
+            label5.Text = "Total Denda";
+            // 
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.FromArgb(240, 242, 245);
             guna2Panel1.BorderColor = Color.Silver;
             guna2Panel1.BorderRadius = 10;
             guna2Panel1.BorderThickness = 1;
-            guna2Panel1.Controls.Add(guna2DataGridView1);
+            guna2Panel1.Controls.Add(dataGridRiwayatPeminjaman);
             guna2Panel1.Controls.Add(panel2);
-            guna2Panel1.CustomizableEdges = customizableEdges19;
+            guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(12, 481);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Panel1.Size = new Size(1104, 271);
             guna2Panel1.TabIndex = 57;
+            // 
+            // dataGridRiwayatPeminjaman
+            // 
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridRiwayatPeminjaman.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridRiwayatPeminjaman.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridRiwayatPeminjaman.ColumnHeadersHeight = 4;
+            dataGridRiwayatPeminjaman.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dataGridRiwayatPeminjaman.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridRiwayatPeminjaman.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridRiwayatPeminjaman.Location = new Point(13, 79);
+            dataGridRiwayatPeminjaman.Name = "dataGridRiwayatPeminjaman";
+            dataGridRiwayatPeminjaman.RowHeadersVisible = false;
+            dataGridRiwayatPeminjaman.RowHeadersWidth = 51;
+            dataGridRiwayatPeminjaman.Size = new Size(1079, 181);
+            dataGridRiwayatPeminjaman.TabIndex = 2;
+            dataGridRiwayatPeminjaman.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridRiwayatPeminjaman.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridRiwayatPeminjaman.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridRiwayatPeminjaman.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridRiwayatPeminjaman.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridRiwayatPeminjaman.ThemeStyle.BackColor = Color.White;
+            dataGridRiwayatPeminjaman.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridRiwayatPeminjaman.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridRiwayatPeminjaman.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridRiwayatPeminjaman.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridRiwayatPeminjaman.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridRiwayatPeminjaman.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridRiwayatPeminjaman.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridRiwayatPeminjaman.ThemeStyle.ReadOnly = false;
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.Height = 29;
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridRiwayatPeminjaman.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridRiwayatPeminjaman.CellContentClick += dataGridRiwayatPeminjaman_CellContentClick;
             // 
             // panel2
             // 
@@ -182,14 +372,66 @@
             guna2Panel2.BorderColor = Color.Silver;
             guna2Panel2.BorderRadius = 10;
             guna2Panel2.BorderThickness = 1;
-            guna2Panel2.Controls.Add(guna2DataGridView2);
+            guna2Panel2.Controls.Add(dataGridBukuPopuler);
             guna2Panel2.Controls.Add(panel1);
-            guna2Panel2.CustomizableEdges = customizableEdges21;
+            guna2Panel2.CustomizableEdges = customizableEdges3;
             guna2Panel2.Location = new Point(12, 770);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Panel2.Size = new Size(548, 271);
             guna2Panel2.TabIndex = 58;
+            // 
+            // dataGridBukuPopuler
+            // 
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridBukuPopuler.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            dataGridBukuPopuler.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridBukuPopuler.ColumnHeadersHeight = 4;
+            dataGridBukuPopuler.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            dataGridBukuPopuler.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridBukuPopuler.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridBukuPopuler.Location = new Point(13, 79);
+            dataGridBukuPopuler.Name = "dataGridBukuPopuler";
+            dataGridBukuPopuler.RowHeadersVisible = false;
+            dataGridBukuPopuler.RowHeadersWidth = 51;
+            dataGridBukuPopuler.Size = new Size(521, 181);
+            dataGridBukuPopuler.TabIndex = 3;
+            dataGridBukuPopuler.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridBukuPopuler.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridBukuPopuler.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridBukuPopuler.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridBukuPopuler.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridBukuPopuler.ThemeStyle.BackColor = Color.White;
+            dataGridBukuPopuler.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridBukuPopuler.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridBukuPopuler.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridBukuPopuler.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridBukuPopuler.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridBukuPopuler.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridBukuPopuler.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridBukuPopuler.ThemeStyle.ReadOnly = false;
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.Height = 29;
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridBukuPopuler.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridBukuPopuler.CellContentClick += dataGridBukuPopuler_CellContentClick;
             // 
             // panel1
             // 
@@ -218,14 +460,66 @@
             guna2Panel3.BorderColor = Color.Silver;
             guna2Panel3.BorderRadius = 10;
             guna2Panel3.BorderThickness = 1;
-            guna2Panel3.Controls.Add(guna2DataGridView3);
+            guna2Panel3.Controls.Add(dataGridPengembalianTerlambat);
             guna2Panel3.Controls.Add(panel3);
-            guna2Panel3.CustomizableEdges = customizableEdges23;
+            guna2Panel3.CustomizableEdges = customizableEdges5;
             guna2Panel3.Location = new Point(568, 770);
             guna2Panel3.Name = "guna2Panel3";
-            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Panel3.Size = new Size(548, 271);
             guna2Panel3.TabIndex = 59;
+            // 
+            // dataGridPengembalianTerlambat
+            // 
+            dataGridViewCellStyle7.BackColor = Color.White;
+            dataGridPengembalianTerlambat.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle8.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle8.ForeColor = Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.True;
+            dataGridPengembalianTerlambat.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridPengembalianTerlambat.ColumnHeadersHeight = 4;
+            dataGridPengembalianTerlambat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = Color.White;
+            dataGridViewCellStyle9.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle9.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle9.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.False;
+            dataGridPengembalianTerlambat.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridPengembalianTerlambat.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridPengembalianTerlambat.Location = new Point(15, 79);
+            dataGridPengembalianTerlambat.Name = "dataGridPengembalianTerlambat";
+            dataGridPengembalianTerlambat.RowHeadersVisible = false;
+            dataGridPengembalianTerlambat.RowHeadersWidth = 51;
+            dataGridPengembalianTerlambat.Size = new Size(521, 181);
+            dataGridPengembalianTerlambat.TabIndex = 4;
+            dataGridPengembalianTerlambat.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dataGridPengembalianTerlambat.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dataGridPengembalianTerlambat.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dataGridPengembalianTerlambat.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dataGridPengembalianTerlambat.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dataGridPengembalianTerlambat.ThemeStyle.BackColor = Color.White;
+            dataGridPengembalianTerlambat.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dataGridPengembalianTerlambat.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridPengembalianTerlambat.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridPengembalianTerlambat.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dataGridPengembalianTerlambat.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dataGridPengembalianTerlambat.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridPengembalianTerlambat.ThemeStyle.HeaderStyle.Height = 4;
+            dataGridPengembalianTerlambat.ThemeStyle.ReadOnly = false;
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.Height = 29;
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridPengembalianTerlambat.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridPengembalianTerlambat.CellContentClick += dataGridPengembalianTerlambat_CellContentClick;
             // 
             // panel3
             // 
@@ -244,247 +538,16 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(23, 25);
             label2.Name = "label2";
-            label2.Size = new Size(140, 24);
+            label2.Size = new Size(233, 24);
             label2.TabIndex = 2;
-            label2.Text = "Buku Teraktif";
+            label2.Text = "Riwayat Pengembalian";
             // 
-            // guna2DataGridView1
+            // mySqlCommand1
             // 
-            dataGridViewCellStyle28.BackColor = Color.White;
-            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
-            dataGridViewCellStyle29.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle29.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle29.ForeColor = Color.White;
-            dataGridViewCellStyle29.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
-            guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle30.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = Color.White;
-            dataGridViewCellStyle30.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle30.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle30.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle30.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle30.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle30;
-            guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(13, 79);
-            guna2DataGridView1.Name = "guna2DataGridView1";
-            guna2DataGridView1.RowHeadersVisible = false;
-            guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(1079, 181);
-            guna2DataGridView1.TabIndex = 2;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
-            // guna2DataGridView2
-            // 
-            dataGridViewCellStyle31.BackColor = Color.White;
-            guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
-            dataGridViewCellStyle32.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle32.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle32.ForeColor = Color.White;
-            dataGridViewCellStyle32.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
-            guna2DataGridView2.ColumnHeadersHeight = 4;
-            guna2DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle33.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = Color.White;
-            dataGridViewCellStyle33.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle33.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle33.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle33.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle33.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle33;
-            guna2DataGridView2.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView2.Location = new Point(13, 79);
-            guna2DataGridView2.Name = "guna2DataGridView2";
-            guna2DataGridView2.RowHeadersVisible = false;
-            guna2DataGridView2.RowHeadersWidth = 51;
-            guna2DataGridView2.Size = new Size(521, 181);
-            guna2DataGridView2.TabIndex = 3;
-            guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView2.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView2.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView2.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView2.ThemeStyle.ReadOnly = false;
-            guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView2.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView2.ThemeStyle.RowsStyle.Height = 29;
-            guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
-            // guna2DataGridView3
-            // 
-            dataGridViewCellStyle34.BackColor = Color.White;
-            guna2DataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
-            dataGridViewCellStyle35.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle35.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle35.ForeColor = Color.White;
-            dataGridViewCellStyle35.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle35.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle35.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
-            guna2DataGridView3.ColumnHeadersHeight = 4;
-            guna2DataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle36.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = Color.White;
-            dataGridViewCellStyle36.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle36.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle36.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle36.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle36.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView3.DefaultCellStyle = dataGridViewCellStyle36;
-            guna2DataGridView3.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView3.Location = new Point(15, 79);
-            guna2DataGridView3.Name = "guna2DataGridView3";
-            guna2DataGridView3.RowHeadersVisible = false;
-            guna2DataGridView3.RowHeadersWidth = 51;
-            guna2DataGridView3.Size = new Size(521, 181);
-            guna2DataGridView3.TabIndex = 4;
-            guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView3.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView3.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView3.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView3.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView3.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView3.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView3.ThemeStyle.ReadOnly = false;
-            guna2DataGridView3.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView3.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView3.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView3.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView3.ThemeStyle.RowsStyle.Height = 29;
-            guna2DataGridView3.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Inter", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.Black;
-            label3.Location = new Point(380, 24);
-            label3.Name = "label3";
-            label3.Size = new Size(366, 34);
-            label3.TabIndex = 3;
-            label3.Text = "Selamat Datang Kembali !";
-            label3.Click += label3_Click;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.Black;
-            label4.Location = new Point(432, 124);
-            label4.Name = "label4";
-            label4.Size = new Size(231, 21);
-            label4.TabIndex = 4;
-            label4.Text = "Selamat Bekerja Budiman";
-            label4.Click += label4_Click;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.Black;
-            label5.Location = new Point(124, 24);
-            label5.Name = "label5";
-            label5.Size = new Size(114, 21);
-            label5.TabIndex = 5;
-            label5.Text = "Total Denda";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.Black;
-            label6.Location = new Point(128, 24);
-            label6.Name = "label6";
-            label6.Size = new Size(102, 21);
-            label6.TabIndex = 6;
-            label6.Text = "Total Buku";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.BackColor = Color.Transparent;
-            label7.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.Black;
-            label7.Location = new Point(124, 24);
-            label7.Name = "label7";
-            label7.Size = new Size(132, 21);
-            label7.TabIndex = 5;
-            label7.Text = "Total Anggota";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.Black;
-            label8.Location = new Point(420, 155);
-            label8.Name = "label8";
-            label8.Size = new Size(254, 21);
-            label8.TabIndex = 5;
-            label8.Text = "Hari ini: Selasa, 07 Mei 2025";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Inter", 10.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.Black;
-            label9.Location = new Point(423, 249);
-            label9.Name = "label9";
-            label9.Size = new Size(251, 21);
-            label9.TabIndex = 6;
-            label9.Text = "Anda login sebagai: ADMIN  ";
+            mySqlCommand1.CacheAge = 0;
+            mySqlCommand1.Connection = null;
+            mySqlCommand1.EnableCaching = false;
+            mySqlCommand1.Transaction = null;
             // 
             // Home
             // 
@@ -509,17 +572,17 @@
             guna2ShadowPanel5.ResumeLayout(false);
             guna2ShadowPanel5.PerformLayout();
             guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridRiwayatPeminjaman).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             guna2Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridBukuPopuler).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             guna2Panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridPengembalianTerlambat).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView3).EndInit();
             ResumeLayout(false);
         }
 
@@ -537,17 +600,19 @@
         private Panel panel1;
         private Label label1;
         private Label label3;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridRiwayatPeminjaman;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridBukuPopuler;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView3;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridPengembalianTerlambat;
         private Panel panel3;
         private Label label2;
-        private Label label4;
         private Label label6;
         private Label label7;
         private Label label5;
-        private Label label9;
-        private Label label8;
+        private Label lblTotalBuku;
+        private Label lblTotalAnggota;
+        private Label lblTotalDenda;
+        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
+        private LiveChartsCore.SkiaSharpView.WinForms.CartesianChart chartPenjualan;
     }
 }

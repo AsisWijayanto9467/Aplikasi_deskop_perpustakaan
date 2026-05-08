@@ -26,15 +26,15 @@ namespace Aplikasi_perpustakaan
         {
             if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
             {
-                MessageBox.Show("Username dan Password tidak boleh kosong!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Username dan Password tidak boleh kosong!", "Peringatan",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            
-            Color warnaAsli = btnSubmit.FillColor;
 
-            btnSubmit.Enabled = false;                
-            btnSubmit.Text = "...loading";            
-            btnSubmit.FillColor = Color.LightSkyBlue;  
+            Color warnaAsli = btnSubmit.FillColor;
+            btnSubmit.Enabled = false;
+            btnSubmit.Text = "...loading";
+            btnSubmit.FillColor = Color.LightSkyBlue;
 
             MySqlConnection conn = kon.GetConn();
 
@@ -42,7 +42,7 @@ namespace Aplikasi_perpustakaan
             {
                 conn.Open();
 
-                string query = "SELECT * FROM users WHERE username = @username AND password = SHA2(@password, 256)";
+                string query = "SELECT id_user, username, nama, role FROM users WHERE username = @username AND password = SHA2(@password, 256)";
 
                 cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@username", txtUsername.Text);
@@ -52,35 +52,45 @@ namespace Aplikasi_perpustakaan
 
                 if (dr.Read())
                 {
-                    string namaUser = dr["nama"].ToString();
-                    string roleUser = dr["role"].ToString();
+                    Program.UserId = Convert.ToInt32(dr["id_user"]);
+                    Program.Username = dr["username"].ToString();
+                    Program.NamaLengkap = dr["nama"].ToString();
+                    Program.Role = dr["role"].ToString();
 
-                    MessageBox.Show($"Selamat Datang, {namaUser}! Anda login sebagai {roleUser}.", "Login Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    string namaUser = Program.NamaLengkap;
+                    string roleUser = Program.Role;
 
+                    MessageBox.Show($"Selamat Datang, {namaUser}! Anda login sebagai {roleUser}.",
+                        "Login Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // BUKA DASHBOARD
                     Dashboard dash = new Dashboard(namaUser, roleUser);
                     dash.Show();
 
+                    // TUTUP LOGIN FORM
                     this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Username atau Password salah!", "Gagal Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Username atau Password salah!", "Gagal Login",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtPassword.Clear();
                     txtUsername.Focus();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Terjadi kesalahan koneksi: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Terjadi kesalahan koneksi: " + ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
                 btnSubmit.Enabled = true;
-                btnSubmit.Text = "Submit"; 
+                btnSubmit.Text = "Submit";
                 btnSubmit.FillColor = warnaAsli;
 
-                if (dr != null) dr.Close();
-                if (conn.State == ConnectionState.Open) conn.Close();
+                if (dr != null && !dr.IsClosed) dr.Close();
+                if (conn != null && conn.State == ConnectionState.Open) conn.Close();
             }
         }
 

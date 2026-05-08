@@ -772,7 +772,6 @@ namespace Aplikasi_perpustakaan
                 conn.Open();
                 transaction = conn.BeginTransaction();
 
-                // 1. Update status peminjaman menjadi 'dikembalikan'
                 string updatePeminjaman = @"
             UPDATE peminjaman 
             SET status = 'dikembalikan' 
@@ -782,16 +781,11 @@ namespace Aplikasi_perpustakaan
                 cmdPeminjaman.Parameters.AddWithValue("@id_peminjaman", idPeminjamanAktif);
                 cmdPeminjaman.ExecuteNonQuery();
 
-                // ============================================================
-                // TAMBAHKAN BAGIAN INI: 2. Insert ke tabel pengembalian
-                // ============================================================
 
-                // Hitung total denda dari txtTotalDenda
                 decimal totalDenda = 0;
                 string dendaText = txtTotalDenda.Text.Replace("Rp ", "").Replace(".", "").Replace(",", "");
                 decimal.TryParse(dendaText, out totalDenda);
 
-                // Hitung hari terlambat
                 int hariTerlambat = 0;
                 if (lblConsequence.Visible && lblConsequence.Text.Contains("Terlambat"))
                 {
@@ -808,7 +802,6 @@ namespace Aplikasi_perpustakaan
                     }
                 }
 
-                // Tentukan status denda
                 string statusDendaValue;
                 if (totalDenda == 0)
                     statusDendaValue = "tidak_ada";
@@ -817,7 +810,6 @@ namespace Aplikasi_perpustakaan
                 else
                     statusDendaValue = "belum_bayar";
 
-                // Query insert pengembalian
                 string insertPengembalian = @"
             INSERT INTO pengembalian 
             (id_peminjaman, tanggal_kembali, terlambat, total_denda, status_denda, id_user) 
@@ -833,11 +825,7 @@ namespace Aplikasi_perpustakaan
                 cmdPengembalian.Parameters.AddWithValue("@id_user", Program.UserId);
                 cmdPengembalian.ExecuteNonQuery();
 
-                // ============================================================
-                // AKHIR TAMBAHAN
-                // ============================================================
 
-                // 3. Update stok buku yang dikembalikan
                 foreach (DataGridViewRow row in dataGridReturnBook.Rows)
                 {
                     if (row.Cells["chkPilih"].Value != null &&
@@ -860,11 +848,8 @@ namespace Aplikasi_perpustakaan
                         }
                     }
                 }
-
-                // Commit transaction
                 transaction.Commit();
 
-                // Tampilkan pesan sukses
                 string statusDenda = radioLunas.Checked ? "LUNAS" : "BELUM LUNAS";
                 string pesanSukses = $"✅ Pengembalian berhasil disimpan!\n\n" +
                                     $"Kode: {txtCode.Text}\n" +
